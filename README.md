@@ -1,4 +1,4 @@
-### Sujet : skin Valorant                   
+### Sujet : Skin Valorant                   
 [Lien du Github Pages](https://val-b04.github.io/Site_Free/)     
 [Lien du repository Github](https://github.com/VAL-b04/Site_Skin_Valorant)  
 
