@@ -1,6 +1,6 @@
 ### Sujet : skin Valorant                   
 [Lien du Github Pages](https://val-b04.github.io/Site_Free/)     
-[Lien du repository Github](https://github.com/VAL-b04/Site_Free)  
+[Lien du repository Github](https://github.com/VAL-b04/Site_E_Commerce)  
 
 ### Membre du groupe :
 - [ADAM BAJIC (référent)](mailto:adam.bajic@edu.univ-fcomte.fr)
