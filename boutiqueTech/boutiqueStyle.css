@@ -1,0 +1,61 @@
+/* page boutique*/
+.zoneProduit {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.carteProduit {
+    width: calc(30% - 10px);
+    display: flex;
+    border: 5px solid #333;
+    border-radius: 5px;
+    margin: 0px;
+    align-items: center;
+    max-width: 400px;
+}
+
+.imageProduit {
+    text-align: center;
+
+    width: 50%;
+    height: 300px;
+
+    background-color: gray;
+    
+
+    display: flex; /* partie text de la div placeHolder*/
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+
+.texteProduit {
+    color: black;
+    width: 50%;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: gray;
+    color: white;
+}
+
+@media (max-width: 915px) {
+    .carteProduit {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 412px) {
+    .carteProduit {
+        width: calc(100% - 10px);
+    }
+}
