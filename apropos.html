@@ -1,0 +1,421 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant - Tactical Shooter</title>
+    <link rel="stylesheet" href="styles_propos.css">
+</head>
+<body>
+    <!-- Hero Section avec vidéo de fond -->
+    <section class="hero">
+        <div class="video-background">
+            <video autoplay muted loop playsinline>
+                <source src="videofond.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="VALORANT">VALORANT</h1>
+            <p class="hero-subtitle">DÉFIER LES LIMITES • DOMINER LE CHAMP DE BATAILLE</p>
+        </div>
+    </section>
+    <div id="pubContainer1">
+    <button class="closeBtn1" onclick="closePub1()">✕</button>
+    <div class="carousel1" id="carousel1">
+    <a href="https://val-b04.github.io/Site_Free" target="_blank"><img src="pubfree.jpeg" alt="Pub free" class="active1"> </a>
+    <a href="https://playvalorant.com/fr-fr/download" target="_blank"><img src="pubvalo.png" alt="Pub valo"></a>
+    <a href="https://rezerowebnovelfr.wordpress.com/" target="_blank"><img src="rezero_wallpaper.jpg" alt="Pub Coca-Cola"></a>
+    </div>
+    </div>
+    <div id="pubContainer2">
+    <button class="closeBtn2" onclick="closePub2()">✕</button>
+    <div class="carousel2" id="carousel2">
+    <a href="https://val-b04.github.io/Site_Free" target="_blank"><img src="pubfree.jpeg" alt="pub" class="active2"></a>
+    <a href="https://www.leagueoflegends.com/fr-fr/download" target="_blank"><img src="lol.png" alt="pub lol"></a>
+    <a href="https://danganronpa.fandom.com/fr/wiki/Découvrir_Danganronpa" target="_blank"><img src="pubdanran.jpg" alt="danron pub"></a>
+    </div>
+    </div>
+    <script>
+        const pubContainer2 = document.getElementById('pubContainer2');
+        const slides2 = document.querySelectorAll('#carousel2 a');
+        let currentSlide2 = 0;
+
+        // Affiche la slide demandée
+        function showSlide2(index) {
+            slides2.forEach((slide, i) => {
+                slide.classList.toggle('active2', i === index);
+            });
+        }
+
+        // Passe à la slide suivante
+        function nextSlide2() {
+            const oldSlide = currentSlide2;
+            currentSlide2 = (currentSlide2 + 1) % slides2.length;
+
+            // Ajouter la nouvelle slide
+            slides2[currentSlide2].classList.add('active2');
+            // Retirer l'ancienne après transition
+            slides2[oldSlide].classList.remove('active2');
+        }
+
+        // Initialisation
+        showSlide2(currentSlide2);
+
+        // Carrousel automatique toutes les 10 secondes
+        setInterval(nextSlide2, 5000);
+
+        // Fermer la pub
+        function closePub2() {
+            pubContainer2.style.display = 'none';
+        }
+    </script>
+    <script>
+        const pubContainer1 = document.getElementById('pubContainer1');
+        const slides1 = document.querySelectorAll('#carousel1 a');
+        let currentSlide1 = 0;
+
+        // Affiche la slide demandée
+        function showSlide1(index) {
+            slides1.forEach((slide, i) => {
+                slide.classList.toggle('active1', i === index);
+            });
+        }
+
+        // Passe à la slide suivante
+        function nextSlide1() {
+            const oldSlide = currentSlide1;
+            currentSlide1 = (currentSlide1 + 1) % slides1.length;
+
+            // Ajouter la nouvelle slide
+            slides1[currentSlide1].classList.add('active1');
+            // Retirer l'ancienne après transition
+            slides1[oldSlide].classList.remove('active1');
+        }
+
+        // Initialisation
+        showSlide1(currentSlide1);
+
+        // Carrousel automatique toutes les 10 secondes
+        setInterval(nextSlide1, 5000);
+
+        // Fermer la pub
+        function closePub1() {
+            pubContainer1.style.display = 'none';
+        }
+    </script>
+
+        <!-- Section Carrousels -->
+    <section class="carousels-section">
+        <!-- Carrousel Gauche -->
+        <div class="carousel-container left">
+            <div class="carousel">
+                <div class="carousel-track" id="carousel-left">
+                    <div class="carousel-card">
+                        <img src="jett.jpg" alt="Jett">
+                        <div class="card-info">
+                            <h3>JETT</h3>
+                            <p>Duelliste</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="phenix.jpg" alt="Phoenix">
+                        <div class="card-info">
+                            <h3>PHOENIX</h3>
+                            <p>Duelliste</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="saje.jpg" alt="Sage">
+                        <div class="card-info">
+                            <h3>SAGE</h3>
+                            <p>Sentinelle</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="sova.jpg" alt="Sova">
+                        <div class="card-info">
+                            <h3>SOVA</h3>
+                            <p>Initiateur</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="bringstone.jpg" alt="BRIMSTONE">
+                        <div class="card-info">
+                            <h3>BRIMSTONE</h3>
+                            <p>Controller</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="viper.jpg" alt="VIPER">
+                        <div class="card-info">
+                            <h3>VIPER</h3>
+                            <p>Controller</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="omen.jpg" alt="OMEN">
+                        <div class="card-info">
+                            <h3>OMEN</h3>
+                            <p>Controller</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="cypher.jpg" alt="CYPHER">
+                        <div class="card-info">
+                            <h3>CYPHER</h3>
+                            <p>Sentinel</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="reina.jpg" alt="REYNA">
+                        <div class="card-info">
+                            <h3>REYNA</h3>
+                            <p>Duelliste</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="raze.jpg" alt="RAZE">
+                        <div class="card-info">
+                            <h3>RAZE</h3>
+                            <p>Duelliste</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="breacht.jpg" alt="BREACH">
+                        <div class="card-info">
+                            <h3>BREACH</h3>
+                            <p>Initiateur</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="skye.jpg" alt="SKYE">
+                        <div class="card-info">
+                            <h3>SKYE</h3>
+                            <p>Initiateur</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="yoru.jpg" alt="YORU">
+                        <div class="card-info">
+                            <h3>YORU</h3>
+                            <p>Duelliste</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="astra.jpg" alt="astra">
+                        <div class="card-info">
+                            <h3>ASTRA</h3>
+                            <p>Controller</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="ko.jpg" alt="KAYo">
+                        <div class="card-info">
+                            <h3>KAYo</h3>
+                            <p>Initiateur</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="chamber.jpg" alt="CHAMBER">
+                        <div class="card-info">
+                            <h3>CHAMBER</h3>
+                            <p>Sentinel</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="neon.jpg" alt="NEON">
+                        <div class="card-info">
+                            <h3>NEON</h3>
+                            <p>Duelliste</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="fade.jpg" alt="FADE">
+                        <div class="card-info">
+                            <h3>FADE</h3>
+                            <p>Initiateur</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="harbor.jpg" alt="HARBOR">
+                        <div class="card-info">
+                            <h3>HARBOR</h3>
+                            <p>Controller</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="gekko.jpg" alt="GEKKO">
+                        <div class="card-info">
+                            <h3>GEKKO</h3>
+                            <p>Initiateur</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="deadlock.jpg" alt="DEADLOCK">
+                        <div class="card-info">
+                            <h3>DEADLOCK</h3>
+                            <p>Sentinel</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="iso.jpg" alt="ISO">
+                        <div class="card-info">
+                            <h3>ISO</h3>
+                            <p>Duelliste</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="Clovecherie.jpg" alt="CLOVE">
+                        <div class="card-info">
+                            <h3>CLOVE</h3>
+                            <p>Controller</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="vyse.jpg" alt="VYSE">
+                        <div class="card-info">
+                            <h3>VYSE</h3>
+                            <p>Sentinel</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="tejo.jpg" alt="TEJO">
+                        <div class="card-info">
+                            <h3>TEJO</h3>
+                            <p>Initiateur</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="waylay.jpg" alt="WAYLAY">
+                        <div class="card-info">
+                            <h3>WAYLAY</h3>
+                            <p>DuellistE</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="veto.jpg" alt="VETO">
+                        <div class="card-info">
+                            <h3>VETO</h3>
+                            <p>Sentinel</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="killjoy.jpg" alt="KILLJOY">
+                        <div class="card-info">
+                            <h3>KILLJOY</h3>
+                            <p>Sentinel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-content right-text">
+                <h2>LES AGENTS</h2>
+                <p>Valorant propose une galerie diversifiée d'agents, chacun doté de capacités uniques qui transforment le champ de bataille. Des duellistes agressifs aux sentinelles défensives, chaque agent offre un style de jeu distinct qui s'adapte à votre stratégie.</p>
+                <p>Maîtrisez leurs compétences, combinez vos forces avec votre équipe et créez des synergies dévastatrices pour prendre l'avantage sur vos adversaires.</p>
+            </div>
+        </div>
+        
+        <!-- Carrousel Droit -->
+        <div class="carousel-container right">
+            <div class="text-content left-text">
+                <h2>LES CARTES</h2>
+                <p>Explorez des environnements tactiques soigneusement conçus, où chaque angle compte et chaque décision peut basculer le match. De Haven avec ses trois sites à Ascent et ses portes mécaniques, chaque carte offre des opportunités stratégiques uniques.</p>
+                <p>Apprenez les callouts, maîtrisez les timings et utilisez le terrain à votre avantage pour surprendre l'ennemi et sécuriser la victoire.</p>
+            </div>
+            <div class="carousel">
+                <div class="carousel-track reverse" id="carousel-right">
+                    <div class="carousel-card">
+                        <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0e00d3e5e6d5d5e9/bind.jpg" alt="Bind">
+                        <div class="card-info">
+                            <h3>BIND</h3>
+                            <p>Carte tactique</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0e00d3e5e6d5d5ea/haven.jpg" alt="Haven">
+                        <div class="card-info">
+                            <h3>HAVEN</h3>
+                            <p>3 sites</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0e00d3e5e6d5d5eb/split.jpg" alt="Split">
+                        <div class="card-info">
+                            <h3>SPLIT</h3>
+                            <p>Carte verticale</p>
+                        </div>
+                    </div>
+                    <div class="carousel-card">
+                        <img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0e00d3e5e6d5d5ec/ascent.jpg" alt="Ascent">
+                        <div class="card-info">
+                            <h3>ASCENT</h3>
+                            <p>Portes mécaniques</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer avec formulaire -->
+    <footer class="contact-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h2>REJOIGNEZ LA COMMUNAUTÉ</h2>
+                <p>Des questions ? Des suggestions ? Contactez-nous et rejoignez des millions de joueurs dans l'arène tactique de Valorant.</p>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Nom d'invocateur" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <select id="subject" name="subject" required>
+                        <option value="">Sélectionner un sujet</option>
+                        <option value="support">Support technique</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="report">Signaler un bug</option>
+                        <option value="other">Autre</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">ENVOYER</button>
+            </form>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Valorant - A propos de VALORANT - Cliquée sur les pubs • Lukas Page</p>
+        </div>
+    </footer>
+
+    <script>
+        // Animation des carrousels
+        const carouselLeft = document.getElementById('carousel-left');
+        const carouselRight = document.getElementById('carousel-right');
+
+        // Compter le nombre de cartes AVANT duplication
+        const leftCardsCount = carouselLeft.querySelectorAll('.carousel-card').length;
+        const rightCardsCount = carouselRight.querySelectorAll('.carousel-card').length;
+
+        // Dupliquer les cartes pour un défilement infini
+        carouselLeft.innerHTML += carouselLeft.innerHTML;
+        carouselRight.innerHTML += carouselRight.innerHTML;
+
+        // Ajuster la durée de l'animation selon le nombre de cartes (5s par carte)
+        carouselLeft.style.animationDuration = (leftCardsCount * 0.1) + 's';
+        carouselRight.style.animationDuration = (rightCardsCount * 2) + 's';
+
+        // Gestion du formulaire
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Message envoyé ! Nous vous répondrons bientôt.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
