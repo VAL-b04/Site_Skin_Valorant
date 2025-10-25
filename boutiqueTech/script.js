@@ -1,4 +1,4 @@
-fetch('./boutiqueTech/data.json')
+fetch('https://github.com/VAL-b04/Site_Skin_Valorant/boutiqueTech/data.json')
     .then(response => response.json())
     .then(data => {
         const zoneProduit = document.getElementById('produits');
