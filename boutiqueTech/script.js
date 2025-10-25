@@ -1,4 +1,4 @@
-fetch('/boutiqueTech/data.json')
+fetch('./boutiqueTech/data.json')
     .then(response => response.json())
     .then(data => {
         const zoneProduit = document.getElementById('produits');
