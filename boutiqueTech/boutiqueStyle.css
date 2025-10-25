@@ -201,21 +201,33 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
 .zoneProduit {
     width: 85%;
     float: right;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
-.zoneAres, .zoneBucky, .zoneClassic {
+.titreArme {
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+    font-family: 'Valorant';
+    text-align: center;
+    font-size: 2rem;
+    color: #ff4655;
+}
+
+.zoneCartesProduits {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 0;
+    margin-bottom: 40px;
 }
+
 
 .carteProduit {
     width: calc(30% - 10px);
-    height: 110px;
+    height: 210px;
     display: flex;
     margin: 0px;
     align-items: center;
@@ -225,12 +237,27 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
     border-radius: 15px;
     border: 2px solid #ff4655;
     box-shadow: 0 10px 30px rgba(255, 70, 85, 0.3);
-    transition: transform 0.5s ;
+    transition: all 0.5s ease-in-out;
 }
 
 .carteProduit:hover {
     width: calc(40% - 10px);
-    box-shadow: 0 10px 30px rgba(255, 70, 85, 0.8);
+    box-shadow: 0 0 50px rgba(255, 70, 85, 0.9), 0 0 30px rgba(255, 70, 85, 0.7);
+    border-color: #ff7a85;
+    transform: scale(1.05);
+
+    animation: pulse 2.5s infinite alternate; /* animation au hover */
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 20px rgba(255, 70, 85, 0.9), 0 0 10px rgba(255, 70, 85, 0.7);
+        transform: scale(1.05);
+    }
+    100% {
+        box-shadow: 0 0 60px rgba(255, 70, 85, 1), 0 0 30px rgba(255, 70, 85, 0.9);
+        transform: scale(1.1);
+    }
 }
 
 .imageProduit {
@@ -251,9 +278,20 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
   
     /* partie responsive */
 @media (max-width: 915px) {
+    .glitch {
+        margin-top: 200px;
+        font-size: 7rem;
+    }
+
+    .zoneProduit {
+        width: 95%;
+        float: none;
+        margin: 0 auto;
+    }
+
     .carteProduit {
         width: calc(50% - 10px);
-        height: 220px;
+        height: 250px;
     }
 
     .carteProduit:hover {
@@ -263,9 +301,20 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
 }
 
 @media (max-width: 412px) {
+    .glitch {
+        margin-top: 200px;
+        font-size: 4rem;
+    }
+
+    .zoneProduit {
+        width: 95%;
+        float: none;
+        margin: 0 auto;
+    }
+
     .carteProduit {
         width: calc(100% - 10px);
-        width: 22;
+        width: 300px;
     }
 
     .carteProduit:hover {

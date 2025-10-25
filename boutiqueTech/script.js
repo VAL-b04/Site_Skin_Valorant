@@ -4,146 +4,45 @@ fetch('/boutiqueTech/data.json')
         const zoneProduit = document.getElementById('produits');
         zoneProduit.className = "zoneProduit";
 
-        const zoneAres = document.createElement('div');
-        zoneAres.className = "zoneAres"
+        //Boucle sur chaque type d'arme dans le JSON
+        Object.keys(data).forEach(arme => {
+            const zoneArme = document.createElement('div');
+            zoneArme.className = "zoneCartesProduits";
 
-        const zoneBucky = document.createElement('div');
-        zoneBucky.className = "zoneBucky"
+            //Titre par catégorie d'armes
+            const titreArme = document.createElement('h2');
+            titreArme.textContent = arme;
+            titreArme.className = "titreArme";
+            zoneProduit.appendChild(titreArme);
 
-        const zoneBulldog = document.createElement('div');
-        zoneBulldog.className = "zoneBucky"
+            // Création des cartes produits
+            data[arme].forEach(produit => {
+                const produitCarte = document.createElement('div');
+                produitCarte.className = "carteProduit";
 
-        const zoneClassic = document.createElement('div');
-        zoneClassic.className = "zoneClassic"
+                const produitTexte = document.createElement('div');
+                produitTexte.className = "texteProduit";
 
-        data.Ares.forEach(produit => {
-            const produitCarte = document.createElement('div');
-            produitCarte.className = "carteProduit"
+                const name = document.createElement('p');
+                name.innerHTML = `<strong>Nom :</strong> ${produit.nom}`;
 
-            const produitTexte = document.createElement('div');
-            produitTexte.className = "texteProduit"
-            
-            const name = document.createElement('p');
-            name.textContent = `Nom: ${produit.nom}`;
+                const price = document.createElement('p');
+                price.innerHTML = `<strong> Prix :</strong> ${produit.prix}`;
 
-            const price = document.createElement('p');
-            price.textContent = `Prix: ${produit.prix}`;
+                const desc = document.createElement('p');
+                desc.innerHTML = `<strong> Description :</strong> <br> ${produit.description}`;
 
-            const desc = document.createElement('p');
-            desc.textContent = `Description: ${produit.description}`
+                const image = document.createElement('img');
+                image.src = produit.Image;
+                image.alt = produit.nom;
+                image.className = "imageProduit";
 
-            const image = document.createElement('img');
-            image.src = produit.Image
-            image.className = "imageProduit";
+                produitTexte.append(name, price, desc);
+                produitCarte.append(produitTexte, image);
+                zoneArme.appendChild(produitCarte);
+            });
 
-
-            produitTexte.appendChild(name);
-            produitTexte.appendChild(price);
-            produitTexte.appendChild(desc);
-
-            produitCarte.appendChild(produitTexte);
-            produitCarte.appendChild(image);
-
-            zoneAres.appendChild(produitCarte);
+            zoneProduit.appendChild(zoneArme);
         });
-
-        data.Bucky.forEach(produit => {
-            const produitCarte = document.createElement('div');
-            produitCarte.className = "carteProduit"
-
-            const produitTexte = document.createElement('div');
-            produitTexte.className = "texteProduit"
-            
-            const name = document.createElement('p');
-            name.textContent = `Nom: ${produit.nom}`;
-
-            const price = document.createElement('p');
-            price.textContent = `Prix: ${produit.prix}`;
-
-            const desc = document.createElement('p');
-            desc.textContent = `Description: ${produit.description}`
-
-            const image = document.createElement('img');
-            image.src = produit.Image
-            image.className = "imageProduit";
-
-
-            produitTexte.appendChild(name);
-            produitTexte.appendChild(price);
-            produitTexte.appendChild(desc);
-
-            produitCarte.appendChild(produitTexte);
-            produitCarte.appendChild(image);
-
-            zoneBucky.appendChild(produitCarte);
-        });
-
-        data.Bulldog.forEach(produit => {
-            const produitCarte = document.createElement('div');
-            produitCarte.className = "carteProduit"
-
-            const produitTexte = document.createElement('div');
-            produitTexte.className = "texteProduit"
-            
-            const name = document.createElement('p');
-            name.textContent = `Nom: ${produit.nom}`;
-
-            const price = document.createElement('p');
-            price.textContent = `Prix: ${produit.prix}`;
-
-            const desc = document.createElement('p');
-            desc.textContent = `Description: ${produit.description}`
-
-            const image = document.createElement('img');
-            image.src = produit.Image
-            image.className = "imageProduit";
-
-
-            produitTexte.appendChild(name);
-            produitTexte.appendChild(price);
-            produitTexte.appendChild(desc);
-
-            produitCarte.appendChild(produitTexte);
-            produitCarte.appendChild(image);
-
-            zoneBulldog.appendChild(produitCarte);
-        });
-
-        data.Classic.forEach(produit => {
-            const produitCarte = document.createElement('div');
-            produitCarte.className = "carteProduit"
-
-            const produitTexte = document.createElement('div');
-            produitTexte.className = "texteProduit"
-            
-            const name = document.createElement('p');
-            name.textContent = `Nom: ${produit.nom}`;
-
-            const price = document.createElement('p');
-            price.textContent = `Prix: ${produit.prix}`;
-
-            const desc = document.createElement('p');
-            desc.textContent = `Description: ${produit.description}`
-
-            const image = document.createElement('img');
-            image.src = produit.Image
-            image.className = "imageProduit";
-
-
-            produitTexte.appendChild(name);
-            produitTexte.appendChild(price);
-            produitTexte.appendChild(desc);
-
-            produitCarte.appendChild(produitTexte);
-            produitCarte.appendChild(image);
-
-            zoneClassic.appendChild(produitCarte);
-        });
-
-        zoneProduit.appendChild(zoneAres);
-        zoneProduit.appendChild(zoneBucky);
-        zoneProduit.appendChild(zoneBulldog);
-        zoneProduit.appendChild(zoneClassic)
-    });
-
-    
+    })
+    .catch(error => console.error('Erreur lors du chargement du fichier JSON :', error));
