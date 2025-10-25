@@ -1,153 +1,153 @@
 {
     "Ares": [
-        {"nom": "Nébuleuse", "prix": "2500", "description": "Un fragment d’univers comprimé dans une arme à l’énergie gravitationnelle.", "Image": "/image/Ares_(Nébuleuse).png"},
-        {"nom": "Sentinelles de la lumière", "prix": "2600", "description": "Une arme bénie par la lumière, gardienne de la justice.", "Image": "/image/Ares_(Sentinelles_de_la_lumière).png"},
-        {"nom": "Singularité", "prix": "2700", "description": "Une force gravitationnelle concentrée pour écraser tout adversaire.", "Image": "/image/Ares_(Singularité).png"},
-        {"nom": "VALORANT GO! Vol. 2", "prix": "2400", "description": "Un design moderne et futuriste pour les combats rapides.", "Image": "/image/Ares_(VALORANT_GO!_Vol.2).png"},
-        {"nom": "Vengeance de Gaïa", "prix": "2800", "description": "La puissance de la nature concentrée dans un canon d’énergie.", "Image": "/image/Ares_(Vengeance_de_Gaïa).png"}
+        {"nom": "Nébuleuse", "prix": "2500", "description": "Un fragment d’univers comprimé dans une arme à l’énergie gravitationnelle.", "Image": "image/Ares_(Nébuleuse).png"},
+        {"nom": "Sentinelles de la lumière", "prix": "2600", "description": "Une arme bénie par la lumière, gardienne de la justice.", "Image": "image/Ares_(Sentinelles_de_la_lumière).png"},
+        {"nom": "Singularité", "prix": "2700", "description": "Une force gravitationnelle concentrée pour écraser tout adversaire.", "Image": "image/Ares_(Singularité).png"},
+        {"nom": "VALORANT GO! Vol. 2", "prix": "2400", "description": "Un design moderne et futuriste pour les combats rapides.", "Image": "image/Ares_(VALORANT_GO!_Vol.2).png"},
+        {"nom": "Vengeance de Gaïa", "prix": "2800", "description": "La puissance de la nature concentrée dans un canon d’énergie.", "Image": "image/Ares_(Vengeance_de_Gaïa).png"}
     ],
 
     "Bucky": [
-        {"nom": "Crise des radiants 001", "prix": "2100", "description": "Un fusil à pompe chargé de puissance explosive.", "Image": "/image/Bucky_(Crise_des_radiants_001).png"},
-        {"nom": "Origine", "prix": "2000", "description": "Un fusil simple et fiable, idéal pour les combats rapprochés.", "Image": "/image/Bucky_(Origines).png"},
-        {"nom": "Surrégime", "prix": "2200", "description": "Rapide et précis, conçu pour les tireurs intrépides.", "Image": "/image/Bucky_(Surrégime).png"},
-        {"nom": "Vengeance de Gaïa", "prix": "2300", "description": "Frappe la cible avec la force brute de la planète.", "Image": "/image/Bucky_(Vengeance_de_Gaïa).png"},
-        {"nom": "Xéno-chasseur", "prix": "2250", "description": "Un fusil à pompe pour traquer les ennemis comme un prédateur.", "Image": "/image/Bucky_(Xéno-chasseur).png"}
+        {"nom": "Crise des radiants 001", "prix": "2100", "description": "Un fusil à pompe chargé de puissance explosive.", "Image": "image/Bucky_(Crise_des_radiants_001).png"},
+        {"nom": "Origine", "prix": "2000", "description": "Un fusil simple et fiable, idéal pour les combats rapprochés.", "Image": "image/Bucky_(Origines).png"},
+        {"nom": "Surrégime", "prix": "2200", "description": "Rapide et précis, conçu pour les tireurs intrépides.", "Image": "image/Bucky_(Surrégime).png"},
+        {"nom": "Vengeance de Gaïa", "prix": "2300", "description": "Frappe la cible avec la force brute de la planète.", "Image": "image/Bucky_(Vengeance_de_Gaïa).png"},
+        {"nom": "Xéno-chasseur", "prix": "2250", "description": "Un fusil à pompe pour traquer les ennemis comme un prédateur.", "Image": "image/Bucky_(Xéno-chasseur).png"}
     ],
 
     "Bulldog": [
-        {"nom": "Araxys", "prix": "2000", "description": "Un fusil automatique compact mais puissant.", "Image": "/image/Bulldog_(Araxys).png"},
-        {"nom": "Phaseguard", "prix": "2100", "description": "Protégé par l’énergie, chaque tir traverse les obstacles.", "Image": "/image/Bulldog_(Phaseguard).png"},
-        {"nom": "protocole 781-A", "prix": "2200", "description": "Une arme standardisée, fiable et efficace.", "Image": "/image/Bulldog_(protocole_781-A).png"},
-        {"nom": "Radiant Entertainment System", "prix": "2300", "description": "Fusion de technologie rétro et puissance moderne.", "Image": "/image/Bulldog_(Radiant_Entertainment_System).png"},
-        {"nom": "Spectrum", "prix": "2250", "description": "Une série de couleurs et de lumières pour embellir la destruction.", "Image": "/image/Bulldog_(Spectrum).png"}
+        {"nom": "Araxys", "prix": "2000", "description": "Un fusil automatique compact mais puissant.", "Image": "image/Bulldog_(Araxys).png"},
+        {"nom": "Phaseguard", "prix": "2100", "description": "Protégé par l’énergie, chaque tir traverse les obstacles.", "Image": "image/Bulldog_(Phaseguard).png"},
+        {"nom": "protocole 781-A", "prix": "2200", "description": "Une arme standardisée, fiable et efficace.", "Image": "image/Bulldog_(protocole_781-A).png"},
+        {"nom": "Radiant Entertainment System", "prix": "2300", "description": "Fusion de technologie rétro et puissance moderne.", "Image": "image/Bulldog_(Radiant_Entertainment_System).png"},
+        {"nom": "Spectrum", "prix": "2250", "description": "Une série de couleurs et de lumières pour embellir la destruction.", "Image": "image/Bulldog_(Spectrum).png"}
     ],
 
     "Classic": [
-        {"nom": "Cryostase", "prix": "1200", "description": "Une arme de poing glaciale, mortelle à courte portée.", "Image": "/image/Classic_(Cryostase).png"},
-        {"nom": "Divergence", "prix": "1300", "description": "Simple, élégante et efficace pour tout tireur.", "Image": "/image/Classic_(Divergence).png"},
-        {"nom": "Glitchpop", "prix": "1400", "description": "Éclats de néons et style cyberpunk pour vos combats.", "Image": "/image/Classic_(Glitchpop).png"},
-        {"nom": "Nocturnum", "prix": "1350", "description": "Une arme sombre, parfaite pour la furtivité.", "Image": "/image/Classic_(Nocturnum).png"},
-        {"nom": "Zircocarbone", "prix": "1500", "description": "Un mélange de métal et de cristal pour des tirs précis.", "Image": "/image/Classic_(Zircocarbone).png"}
+        {"nom": "Cryostase", "prix": "1200", "description": "Une arme de poing glaciale, mortelle à courte portée.", "Image": "image/Classic_(Cryostase).png"},
+        {"nom": "Divergence", "prix": "1300", "description": "Simple, élégante et efficace pour tout tireur.", "Image": "image/Classic_(Divergence).png"},
+        {"nom": "Glitchpop", "prix": "1400", "description": "Éclats de néons et style cyberpunk pour vos combats.", "Image": "image/Classic_(Glitchpop).png"},
+        {"nom": "Nocturnum", "prix": "1350", "description": "Une arme sombre, parfaite pour la furtivité.", "Image": "image/Classic_(Nocturnum).png"},
+        {"nom": "Zircocarbone", "prix": "1500", "description": "Un mélange de métal et de cristal pour des tirs précis.", "Image": "image/Classic_(Zircocarbone).png"}
     ],
 
     "Frenzy": [
-        {"nom": "BlastX", "prix": "1750", "description": "Un design coloré et explosif, inspiré des jouets les plus dangereux.", "Image": "/image/Frenzy_(BlastX).png"},
-        { "nom": "Feu ancien", "prix": "1650", "description": "Un style brûlant, forgé dans les flammes d’un ancien pouvoir oublié.", "Image": "/image/Frenzy_(Feu_ancien).png"},
-        {"nom": "Glitchpop", "prix": "1775", "description": "Un mélange parfait entre néons, cyberpunk et chaos numérique.", "Image": "/image/Frenzy_(Glitchpop).png"},
-        {"nom": "RGX 11z Pro", "prix": "2175", "description": "Une arme futuriste à l’éclairage dynamique et aux finitions impeccables.", "Image": "/image/Frenzy_(RGX_11z_Pro).png"},
-        {"nom": "Xéno chasseur", "prix": "1825", "description": "Inspirée des technologies extraterrestres, elle traque sa cible sans relâche.", "Image": "/image/Frenzy_(Xéno-chasseur).png"}
+        {"nom": "BlastX", "prix": "1750", "description": "Un design coloré et explosif, inspiré des jouets les plus dangereux.", "Image": "image/Frenzy_(BlastX).png"},
+        { "nom": "Feu ancien", "prix": "1650", "description": "Un style brûlant, forgé dans les flammes d’un ancien pouvoir oublié.", "Image": "image/Frenzy_(Feu_ancien).png"},
+        {"nom": "Glitchpop", "prix": "1775", "description": "Un mélange parfait entre néons, cyberpunk et chaos numérique.", "Image": "image/Frenzy_(Glitchpop).png"},
+        {"nom": "RGX 11z Pro", "prix": "2175", "description": "Une arme futuriste à l’éclairage dynamique et aux finitions impeccables.", "Image": "image/Frenzy_(RGX_11z_Pro).png"},
+        {"nom": "Xéno chasseur", "prix": "1825", "description": "Inspirée des technologies extraterrestres, elle traque sa cible sans relâche.", "Image": "image/Frenzy_(Xéno-chasseur).png"}
     ],
 
     "Ghost": [
-        {"nom": "Phaseguard", "prix": "1850", "description": "Un pistolet élégant, forgé pour ceux qui maîtrisent le flux du combat.", "Image": "/image/Ghost_(Phaseguard).png"},
-        {"nom": "Radiant Entertainment System", "prix": "2150", "description": "Un skin rétro-futuriste vibrant, directement sorti des jeux des années 90.", "Image": "/image/Ghost_(Radiant_Entertainment_System).png"},
-        {"nom": "Ruine", "prix": "1675", "description": "Des fragments d’un empire tombé, imprégnés d’une aura sombre et mystique.", "Image": "/image/Ghost_(Ruine).png"},
-        {"nom": "Rêvailes d’Evori", "prix": "1875", "description": "Une arme légère et céleste, inspirée des créatures oniriques d’Evori.", "Image": "/image/Ghost_(Rêvailes_d'Evori).png"},
-        {"nom": "Singularité", "prix": "1975", "description": "Un fragment d’univers comprimé dans une arme à l’énergie gravitationnelle.", "Image": "/image/Ghost_(Singularité).png"}
+        {"nom": "Phaseguard", "prix": "1850", "description": "Un pistolet élégant, forgé pour ceux qui maîtrisent le flux du combat.", "Image": "image/Ghost_(Phaseguard).png"},
+        {"nom": "Radiant Entertainment System", "prix": "2150", "description": "Un skin rétro-futuriste vibrant, directement sorti des jeux des années 90.", "Image": "image/Ghost_(Radiant_Entertainment_System).png"},
+        {"nom": "Ruine", "prix": "1675", "description": "Des fragments d’un empire tombé, imprégnés d’une aura sombre et mystique.", "Image": "image/Ghost_(Ruine).png"},
+        {"nom": "Rêvailes d’Evori", "prix": "1875", "description": "Une arme légère et céleste, inspirée des créatures oniriques d’Evori.", "Image": "image/Ghost_(Rêvailes_d'Evori).png"},
+        {"nom": "Singularité", "prix": "1975", "description": "Un fragment d’univers comprimé dans une arme à l’énergie gravitationnelle.", "Image": "image/Ghost_(Singularité).png"}
     ],
 
     "Guardian": [
-        {"nom": "Araxys", "prix": "2350", "description": "Un design noble et luisant, fruit d’une technologie venue d’ailleurs.", "Image": "/image/Guardian_(Araxys).png"},
-        {"nom": "CYRAX", "prix": "2125", "description": "Un skin inspiré de la cybernétique, froid, précis et impitoyable.", "Image": "/image/Guardian_(CYRAX).png"},
-        {"nom": "RGX 11z Pro", "prix": "2475", "description": "Une arme de pointe à l’esthétique néon, parfaite pour les tireurs d’élite.", "Image": "/image/Guardian_(RGX 11z Pro).png"},
-        {"nom": "Ruine", "prix": "1950", "description": "Forgée dans les ténèbres d’un royaume oublié, chaque tir résonne comme un écho funèbre.", "Image": "/image/Guardian_(Ruine).png"},
-        {"nom": "Spectrum", "prix": "2650", "description": "Une collaboration artistique entre puissance sonore et précision lumineuse.", "Image": "/image/Guardian_(Spectrum).png"}
+        {"nom": "Araxys", "prix": "2350", "description": "Un design noble et luisant, fruit d’une technologie venue d’ailleurs.", "Image": "image/Guardian_(Araxys).png"},
+        {"nom": "CYRAX", "prix": "2125", "description": "Un skin inspiré de la cybernétique, froid, précis et impitoyable.", "Image": "image/Guardian_(CYRAX).png"},
+        {"nom": "RGX 11z Pro", "prix": "2475", "description": "Une arme de pointe à l’esthétique néon, parfaite pour les tireurs d’élite.", "Image": "image/Guardian_(RGX 11z Pro).png"},
+        {"nom": "Ruine", "prix": "1950", "description": "Forgée dans les ténèbres d’un royaume oublié, chaque tir résonne comme un écho funèbre.", "Image": "image/Guardian_(Ruine).png"},
+        {"nom": "Spectrum", "prix": "2650", "description": "Une collaboration artistique entre puissance sonore et précision lumineuse.", "Image": "image/Guardian_(Spectrum).png"}
     ],
 
     "Judge": [
-        {"nom": "ChronoVoid", "prix": "2450", "description": "Une arme où le temps lui-même se plie à votre volonté destructrice.", "Image": "/image/Judge_(ChronoVoid).png"},
-        {"nom": "Divergence", "prix": "1750", "description": "Un mélange d’élégance et de technologie qui redéfinit la brutalité.", "Image": "/image/Judge_(Divergence).png"},
-        {"nom": "Feu ancien", "prix": "1850", "description": "Des flammes éternelles animent chaque tir de cette arme mystique.", "Image": "/image/Judge_(Feu_ancien).png"},
-        {"nom": "Glitchpop", "prix": "1975", "description": "Explosion de couleurs et d’énergie numérique, pour un carnage stylé.", "Image": "/image/Judge_(Glitchpop).png"},
-        {"nom": "Héraut de la fin", "prix": "2250", "description": "Un fusil à pompe venu d’un autre monde, annonciateur de la destruction.", "Image": "/image/Judge_(Héraut_de_la_fin).png"}
+        {"nom": "ChronoVoid", "prix": "2450", "description": "Une arme où le temps lui-même se plie à votre volonté destructrice.", "Image": "image/Judge_(ChronoVoid).png"},
+        {"nom": "Divergence", "prix": "1750", "description": "Un mélange d’élégance et de technologie qui redéfinit la brutalité.", "Image": "image/Judge_(Divergence).png"},
+        {"nom": "Feu ancien", "prix": "1850", "description": "Des flammes éternelles animent chaque tir de cette arme mystique.", "Image": "image/Judge_(Feu_ancien).png"},
+        {"nom": "Glitchpop", "prix": "1975", "description": "Explosion de couleurs et d’énergie numérique, pour un carnage stylé.", "Image": "image/Judge_(Glitchpop).png"},
+        {"nom": "Héraut de la fin", "prix": "2250", "description": "Un fusil à pompe venu d’un autre monde, annonciateur de la destruction.", "Image": "image/Judge_(Héraut_de_la_fin).png"}
     ],
 
     "Marshal": [
-        {"nom": "Amis crayonnés", "prix": "1650", "description": "Un style artistique et décontracté, parfait pour les tireurs au grand cœur.", "Image": "/image/Marshal_(Amis_crayonnés).png"},
-        {"nom": "Kuronami", "prix": "2250", "description": "Des courbes sombres et élégantes, infusées d’une énergie aquatique mystique.", "Image": "/image/Marshal_(Kuronami).png"},
-        {"nom": "Nocturnum", "prix": "1875", "description": "Une arme enveloppée de ténèbres, idéale pour les chasseurs nocturnes.", "Image": "/image/Marshal_(Nocturnum).png"},
-        {"nom": "Nouvelles frontières", "prix": "2150", "description": "Pour ceux qui repoussent les limites du tir de précision.", "Image": "/image/Marshal_(Nouvelles_frontières).png"},
-        {"nom": "Vengeance de Gaïa", "prix": "2350", "description": "Une création vivante, où la nature et la puissance ne font plus qu’un.", "Image": "/image/Marshal_(Vengeance_de_Gaïa).png"}
+        {"nom": "Amis crayonnés", "prix": "1650", "description": "Un style artistique et décontracté, parfait pour les tireurs au grand cœur.", "Image": "image/Marshal_(Amis_crayonnés).png"},
+        {"nom": "Kuronami", "prix": "2250", "description": "Des courbes sombres et élégantes, infusées d’une énergie aquatique mystique.", "Image": "image/Marshal_(Kuronami).png"},
+        {"nom": "Nocturnum", "prix": "1875", "description": "Une arme enveloppée de ténèbres, idéale pour les chasseurs nocturnes.", "Image": "image/Marshal_(Nocturnum).png"},
+        {"nom": "Nouvelles frontières", "prix": "2150", "description": "Pour ceux qui repoussent les limites du tir de précision.", "Image": "image/Marshal_(Nouvelles_frontières).png"},
+        {"nom": "Vengeance de Gaïa", "prix": "2350", "description": "Une création vivante, où la nature et la puissance ne font plus qu’un.", "Image": "image/Marshal_(Vengeance_de_Gaïa).png"}
     ],
 
     "Odin": [
-        {"nom": "Glitchpop", "prix": "2450", "description": "Une mitrailleuse massive infusée d’énergie cybernétique et de néons éclatants.", "Image": "/image/Odin_(Glitchpop).png"},
-        {"nom": "Héraut de la fin", "prix": "2550", "description": "Forgée pour les batailles apocalyptiques, chaque tir fait trembler le sol.", "Image": "/image/Odin_(Héraut_de_la_fin).png"},
-        {"nom": "Nouvelles frontières", "prix": "2150", "description": "Une arme pour ceux qui ne reculent devant rien, même face à l’inconnu.", "Image": "/image/Odin_(Nouvelles_frontières).png"},
-        {"nom": "Rêvailes d’Evori", "prix": "2250", "description": "Une puissance aérienne et lumineuse, à la fois gracieuse et redoutable.", "Image": "/image/Odin_(Rêvailes_d'Evori).png"},
-        {"nom": "Sentinelles de la lumière", "prix": "2350", "description": "Éclairez les ténèbres avec ce symbole de justice et de pureté.", "Image": "/image/Odin_(Sentinelles_de_la_lumière).png"}
+        {"nom": "Glitchpop", "prix": "2450", "description": "Une mitrailleuse massive infusée d’énergie cybernétique et de néons éclatants.", "Image": "image/Odin_(Glitchpop).png"},
+        {"nom": "Héraut de la fin", "prix": "2550", "description": "Forgée pour les batailles apocalyptiques, chaque tir fait trembler le sol.", "Image": "image/Odin_(Héraut_de_la_fin).png"},
+        {"nom": "Nouvelles frontières", "prix": "2150", "description": "Une arme pour ceux qui ne reculent devant rien, même face à l’inconnu.", "Image": "image/Odin_(Nouvelles_frontières).png"},
+        {"nom": "Rêvailes d’Evori", "prix": "2250", "description": "Une puissance aérienne et lumineuse, à la fois gracieuse et redoutable.", "Image": "image/Odin_(Rêvailes_d'Evori).png"},
+        {"nom": "Sentinelles de la lumière", "prix": "2350", "description": "Éclairez les ténèbres avec ce symbole de justice et de pureté.", "Image": "image/Odin_(Sentinelles_de_la_lumière).png"}
     ],
 
     "Operator": [
-        {"nom": "Araxys", "prix": "3500", "description": "Une précision alien et une puissance inégalée dans un seul tir.", "Image": "/image/Operator_(Araxys).png"},
-        {"nom": "Divergence", "prix": "2850", "description": "Une arme élégante et épurée, parfaite pour les tireurs de sang-froid.", "Image": "/image/Operator_(Divergence).png"},
-        {"nom": "Feu ancien", "prix": "2950", "description": "Chaque tir enflamme le champ de bataille de sa lumière sacrée.", "Image": "/image/Operator_(Feu_ancien).png"},
-        {"nom": "RGX 11z Pro", "prix": "3550", "description": "Des performances de pointe et un style high-tech unique.", "Image": "/image/Operator_(RGX_11z_Pro).png"},
-        {"nom": "Radiant Entertainment System", "prix": "3600", "description": "Une nostalgie rétro combinée à une précision de haut niveau.", "Image": "/image/Operator_(Radiant_Entertainment_System).png"}
+        {"nom": "Araxys", "prix": "3500", "description": "Une précision alien et une puissance inégalée dans un seul tir.", "Image": "image/Operator_(Araxys).png"},
+        {"nom": "Divergence", "prix": "2850", "description": "Une arme élégante et épurée, parfaite pour les tireurs de sang-froid.", "Image": "image/Operator_(Divergence).png"},
+        {"nom": "Feu ancien", "prix": "2950", "description": "Chaque tir enflamme le champ de bataille de sa lumière sacrée.", "Image": "image/Operator_(Feu_ancien).png"},
+        {"nom": "RGX 11z Pro", "prix": "3550", "description": "Des performances de pointe et un style high-tech unique.", "Image": "image/Operator_(RGX_11z_Pro).png"},
+        {"nom": "Radiant Entertainment System", "prix": "3600", "description": "Une nostalgie rétro combinée à une précision de haut niveau.", "Image": "image/Operator_(Radiant_Entertainment_System).png"}
     ],
 
     "Outlaw": [
-        {"nom": "Araxys", "prix": "2400", "description": "Une arme de précision forgée dans un métal d’origine inconnue.", "Image": "/image/Outlaw_(Araxys).png"},
-        {"nom": "EX.O", "prix": "2250", "description": "Une esthétique expérimentale pour les tireurs intrépides.", "Image": "/image/Outlaw_(EX.O).png"},
-        {"nom": "Foudre", "prix": "2300", "description": "Canalisez la vitesse et la puissance de la tempête dans chaque tir.", "Image": "/image/Outlaw_(Foudre).png"},
-        {"nom": "Phaseguard", "prix": "2350", "description": "Un équilibre parfait entre élégance et efficacité redoutable.", "Image": "/image/Outlaw_(Phaseguard).png"},
-        {"nom": "RGX 11z Pro", "prix": "2500", "description": "Une arme futuriste qui allie technologie et précision extrême.", "Image": "/image/Outlaw_(RGX_11z_Pro).png"}
+        {"nom": "Araxys", "prix": "2400", "description": "Une arme de précision forgée dans un métal d’origine inconnue.", "Image": "image/Outlaw_(Araxys).png"},
+        {"nom": "EX.O", "prix": "2250", "description": "Une esthétique expérimentale pour les tireurs intrépides.", "Image": "image/Outlaw_(EX.O).png"},
+        {"nom": "Foudre", "prix": "2300", "description": "Canalisez la vitesse et la puissance de la tempête dans chaque tir.", "Image": "image/Outlaw_(Foudre).png"},
+        {"nom": "Phaseguard", "prix": "2350", "description": "Un équilibre parfait entre élégance et efficacité redoutable.", "Image": "image/Outlaw_(Phaseguard).png"},
+        {"nom": "RGX 11z Pro", "prix": "2500", "description": "Une arme futuriste qui allie technologie et précision extrême.", "Image": "image/Outlaw_(RGX_11z_Pro).png"}
     ],
 
     "Phantom": [
-        {"nom": "Araxys", "prix": "2950", "description": "Une technologie avancée qui transcende l’humanité.", "Image": "/image/Phantom_(Araxys).png"},
-        {"nom": "Radiant Entertainment System", "prix": "3200", "description": "Un hommage vibrant aux jeux rétro et à la gloire numérique.", "Image": "/image/Phantom_(Radiant_Entertainment_System).png"},
+        {"nom": "Araxys", "prix": "2950", "description": "Une technologie avancée qui transcende l’humanité.", "Image": "image/Phantom_(Araxys).png"},
+        {"nom": "Radiant Entertainment System", "prix": "3200", "description": "Un hommage vibrant aux jeux rétro et à la gloire numérique.", "Image": "image/Phantom_(Radiant_Entertainment_System).png"},
         {"nom": "[-]", "prix": "[-]", "description": "[-]", "Image": "[-]"},
         {"nom": "[-]", "prix": "[-]", "description": "[-]", "Image": "[-]"},
         {"nom": "[-]", "prix": "[-]", "description": "[-]", "Image": "[-]"}
     ],
 
     "Sheriff": [
-        {"nom": "Araxys", "prix": "2200", "description": "La puissance d’un canon alien au service du plus rapide du far west.", "Image": "/image/Sheriff_(Araxys).png"},
-        {"nom": "EX.O", "prix": "1950", "description": "Un prototype expérimental aux lignes tranchantes et au tir précis.", "Image": "/image/Sheriff_(EX.O).png"},
-        {"nom": "Kuronami", "prix": "2100", "description": "Des motifs inspirés des océans profonds, élégants et puissants.", "Image": "/image/Sheriff_(Kuronami).png"},
-        {"nom": "Protocole 781-A", "prix": "2300", "description": "Un chef-d’œuvre technologique conçu pour l’efficacité absolue.", "Image": "/image/Sheriff_(Protocole_781-A).png"},
-        {"nom": "RGX 11z Pro", "prix": "2400", "description": "Un design high-tech et une réactivité inégalée.", "Image": "/image/Sheriff_(RGX_11z_Pro).png"}
+        {"nom": "Araxys", "prix": "2200", "description": "La puissance d’un canon alien au service du plus rapide du far west.", "Image": "image/Sheriff_(Araxys).png"},
+        {"nom": "EX.O", "prix": "1950", "description": "Un prototype expérimental aux lignes tranchantes et au tir précis.", "Image": "image/Sheriff_(EX.O).png"},
+        {"nom": "Kuronami", "prix": "2100", "description": "Des motifs inspirés des océans profonds, élégants et puissants.", "Image": "image/Sheriff_(Kuronami).png"},
+        {"nom": "Protocole 781-A", "prix": "2300", "description": "Un chef-d’œuvre technologique conçu pour l’efficacité absolue.", "Image": "image/Sheriff_(Protocole_781-A).png"},
+        {"nom": "RGX 11z Pro", "prix": "2400", "description": "Un design high-tech et une réactivité inégalée.", "Image": "image/Sheriff_(RGX_11z_Pro).png"}
     ],
 
     "Shorty": [
-        {"nom": "Araxys", "prix": "1800", "description": "Compacte, puissante, et élégante — la perfection alien à portée de main.", "Image": "/image/Shorty_(Araxys).png"},
-        {"nom": "Neptune", "prix": "1900", "description": "Une arme inspirée des profondeurs marines, calme et dévastatrice.", "Image": "/image/Shorty_(Neptune).png"},
-        {"nom": "Primordium", "prix": "1750", "description": "Un design ancestral qui évoque les forces premières du monde.", "Image": "/image/Shorty_(Primordium).png"},
-        {"nom": "Prélude au chaos", "prix": "2000", "description": "Le chaos pur concentré dans une forme aussi petite qu’efficace.", "Image": "/image/Shorty_(Prélude_au_chaos).png"},
-        {"nom": "Sentinelles de la lumière", "prix": "2100", "description": "Une arme bénie par la lumière, gardienne de l’équilibre.", "Image": "/image/Shorty_(Sentinelles_de_la_lumière).png"}
+        {"nom": "Araxys", "prix": "1800", "description": "Compacte, puissante, et élégante — la perfection alien à portée de main.", "Image": "image/Shorty_(Araxys).png"},
+        {"nom": "Neptune", "prix": "1900", "description": "Une arme inspirée des profondeurs marines, calme et dévastatrice.", "Image": "image/Shorty_(Neptune).png"},
+        {"nom": "Primordium", "prix": "1750", "description": "Un design ancestral qui évoque les forces premières du monde.", "Image": "image/Shorty_(Primordium).png"},
+        {"nom": "Prélude au chaos", "prix": "2000", "description": "Le chaos pur concentré dans une forme aussi petite qu’efficace.", "Image": "image/Shorty_(Prélude_au_chaos).png"},
+        {"nom": "Sentinelles de la lumière", "prix": "2100", "description": "Une arme bénie par la lumière, gardienne de l’équilibre.", "Image": "image/Shorty_(Sentinelles_de_la_lumière).png"}
     ],
 
     "Spectre": [
-        {"nom": "EX.O", "prix": "2250", "description": "Une SMG expérimentale à la cadence rapide et au style avant-gardiste.", "Image": "/image/Spectre_(EX.O).png"},
-        {"nom": "Kuronami", "prix": "2300", "description": "Un design fluide et mystérieux inspiré des courants marins.", "Image": "/image/Spectre_(Kuronami).png"},
-        {"nom": "Protocole 781-A", "prix": "2450", "description": "Une arme de précision automatisée, parfaite pour les missions furtives.", "Image": "/image/Spectre_(Protocole_781-A).png"},
-        {"nom": "RGX 11z Pro", "prix": "2550", "description": "Une fusion entre style futuriste et efficacité redoutable.", "Image": "/image/Spectre_(RGX_11z_Pro).png"},
-        {"nom": "Rêvailes d’Evori", "prix": "2400", "description": "Une arme légère et gracieuse, guidée par la magie d’Evori.", "Image": "/image/Spectre_(Rêvailes d'Evori).png"}
+        {"nom": "EX.O", "prix": "2250", "description": "Une SMG expérimentale à la cadence rapide et au style avant-gardiste.", "Image": "image/Spectre_(EX.O).png"},
+        {"nom": "Kuronami", "prix": "2300", "description": "Un design fluide et mystérieux inspiré des courants marins.", "Image": "image/Spectre_(Kuronami).png"},
+        {"nom": "Protocole 781-A", "prix": "2450", "description": "Une arme de précision automatisée, parfaite pour les missions furtives.", "Image": "image/Spectre_(Protocole_781-A).png"},
+        {"nom": "RGX 11z Pro", "prix": "2550", "description": "Une fusion entre style futuriste et efficacité redoutable.", "Image": "image/Spectre_(RGX_11z_Pro).png"},
+        {"nom": "Rêvailes d’Evori", "prix": "2400", "description": "Une arme légère et gracieuse, guidée par la magie d’Evori.", "Image": "image/Spectre_(Rêvailes d'Evori).png"}
     ],
 
     "Stinger": [
-        {"nom": "CYRAX", "prix": "1850", "description": "Une machine cybernétique à la cadence de feu effrénée.", "Image": "/image/Stinger_(CYRAX).png"},
-        {"nom": "Chewing-gum fatal", "prix": "1650", "description": "Un design sucré et dévastateur, pour un carnage aussi coloré que collant.", "Image": "/image/Stinger_(Chewing-gum_fatal).png"},
-        {"nom": "Prélude au chaos", "prix": "2000", "description": "Une arme instable, saturée d’énergie destructrice.", "Image": "/image/Stinger_(Prélude_au_chaos).png"},
-        {"nom": "RGX 11z Pro", "prix": "2150", "description": "Un bijou technologique qui allie vitesse et précision.", "Image": "/image/Stinger_(RGX_11z_Pro).png"},
-        {"nom": "Surrégime", "prix": "1800", "description": "Une cadence extrême pour ceux qui n’ont pas peur du recul.", "Image": "/image/Stinger_(Surrégime).png"}
+        {"nom": "CYRAX", "prix": "1850", "description": "Une machine cybernétique à la cadence de feu effrénée.", "Image": "image/Stinger_(CYRAX).png"},
+        {"nom": "Chewing-gum fatal", "prix": "1650", "description": "Un design sucré et dévastateur, pour un carnage aussi coloré que collant.", "Image": "image/Stinger_(Chewing-gum_fatal).png"},
+        {"nom": "Prélude au chaos", "prix": "2000", "description": "Une arme instable, saturée d’énergie destructrice.", "Image": "image/Stinger_(Prélude_au_chaos).png"},
+        {"nom": "RGX 11z Pro", "prix": "2150", "description": "Un bijou technologique qui allie vitesse et précision.", "Image": "image/Stinger_(RGX_11z_Pro).png"},
+        {"nom": "Surrégime", "prix": "1800", "description": "Une cadence extrême pour ceux qui n’ont pas peur du recul.", "Image": "image/Stinger_(Surrégime).png"}
     ],
 
     "Vandal": [
-        {"nom": "Champion 2025", "prix": "2950", "description": "Symbole de victoire et de gloire, conçu pour les champions incontestés.", "Image": "/image/Vandal_(Champion_2025).png"},
-        {"nom": "EX.O", "prix": "2600", "description": "Un design audacieux et expérimental, pour les véritables innovateurs.", "Image": "/image/Vandal_(EX.O).png"},
-        {"nom": "Feu ancien", "prix": "2700", "description": "Une arme bénie par les flammes éternelles du passé.", "Image": "/image/Vandal_(Feu_ancien).png"},
-        {"nom": "Phaseguard", "prix": "2750", "description": "Un équilibre entre lumière et ténèbres, incarné dans un fusil d’élite.", "Image": "/image/Vandal_(Phaseguard).png"},
-        {"nom": "Rêvailes d’Evori", "prix": "2850", "description": "Une beauté aérienne qui apporte la mort avec élégance.", "Image": "/image/Vandal_(Rêvailes d'Evori).png"}
+        {"nom": "Champion 2025", "prix": "2950", "description": "Symbole de victoire et de gloire, conçu pour les champions incontestés.", "Image": "image/Vandal_(Champion_2025).png"},
+        {"nom": "EX.O", "prix": "2600", "description": "Un design audacieux et expérimental, pour les véritables innovateurs.", "Image": "image/Vandal_(EX.O).png"},
+        {"nom": "Feu ancien", "prix": "2700", "description": "Une arme bénie par les flammes éternelles du passé.", "Image": "image/Vandal_(Feu_ancien).png"},
+        {"nom": "Phaseguard", "prix": "2750", "description": "Un équilibre entre lumière et ténèbres, incarné dans un fusil d’élite.", "Image": "image/Vandal_(Phaseguard).png"},
+        {"nom": "Rêvailes d’Evori", "prix": "2850", "description": "Une beauté aérienne qui apporte la mort avec élégance.", "Image": "image/Vandal_(Rêvailes d'Evori).png"}
     ],
 
     "Melee": [
-        {"nom": "Couteau poing américain (Altitude)", "prix": "1750", "description": "Puissant et compact, parfait pour les combats rapprochés.", "Image": "/image/Couteau-poing américain (Altitude).png"},
-        {"nom": "Gants SplashX", "prix": "1800", "description": "Des gants renforcés pour infliger des coups dévastateurs.", "Image": "/image/Gants_(SplashX).png"},
-        {"nom": "Karambit Minima", "prix": "1900", "description": "Un couteau courbé, rapide et précis.", "Image": "/image/Karambit_(Minima).png"},
-        {"nom": "Luciole RGX 11z Pro", "prix": "1850", "description": "Une lame stylisée avec des gravures technologiques.", "Image": "/image/Luciole_(RGX_11z_Pro).png"},
-        {"nom": "Vyse", "prix": "1700", "description": "Une arme simple mais redoutable au corps à corps.", "Image": "/image/Onimaru_Kunitsuna.png"}
+        {"nom": "Couteau poing américain (Altitude)", "prix": "1750", "description": "Puissant et compact, parfait pour les combats rapprochés.", "Image": "image/Couteau-poing américain (Altitude).png"},
+        {"nom": "Gants SplashX", "prix": "1800", "description": "Des gants renforcés pour infliger des coups dévastateurs.", "Image": "image/Gants_(SplashX).png"},
+        {"nom": "Karambit Minima", "prix": "1900", "description": "Un couteau courbé, rapide et précis.", "Image": "image/Karambit_(Minima).png"},
+        {"nom": "Luciole RGX 11z Pro", "prix": "1850", "description": "Une lame stylisée avec des gravures technologiques.", "Image": "image/Luciole_(RGX_11z_Pro).png"},
+        {"nom": "Vyse", "prix": "1700", "description": "Une arme simple mais redoutable au corps à corps.", "Image": "image/Onimaru_Kunitsuna.png"}
     ]
 }

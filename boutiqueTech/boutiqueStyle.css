@@ -1,7 +1,7 @@
 @font-face
 {
     font-family: 'Valorant';
-    src: url('/font/Valorant_Font.ttf');
+    src: url('font/Valorant_Font.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -212,6 +212,10 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
     text-align: center;
     font-size: 2rem;
     color: #ff4655;
+    text-shadow: 
+        0 0 20px rgba(255, 70, 85, 0.8),
+        0 0 40px rgba(255, 70, 85, 0.6),
+        0 0 60px rgba(255, 70, 85, 0.4);
 }
 
 .zoneCartesProduits {
@@ -261,8 +265,8 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
 }
 
 .imageProduit {
-    width: 50%;
-    height: auto; 
+    max-width: 50%;
+    object-fit: contain; 
     border-radius: 15px;
 }
 
