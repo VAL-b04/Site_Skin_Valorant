@@ -4,31 +4,30 @@ fetch('/boutiqueTech/data.json')
         const zoneProduit = document.getElementById('produits');
         zoneProduit.className = "zoneProduit";
 
-        data.skin.forEach(produit => {
-
+        data.Ares.forEach(produit => {
             const produitCarte = document.createElement('div');
             produitCarte.className = "carteProduit"
 
             const produitTexte = document.createElement('div');
             produitTexte.className = "texteProduit"
             
-            const nom = document.createElement('p');
-            nom.textContent = `Name: ${produit.name}`;
-
-            const color = document.createElement('p');
-            color.textContent = `Farbe: ${produit.couleur}`;
+            const name = document.createElement('p');
+            name.textContent = `Nom: ${produit.nom}`;
 
             const price = document.createElement('p');
-            price.textContent = `Preis: ${produit.prix}`;
+            price.textContent = `Prix: ${produit.prix}`;
 
-            const image = document.createElement('div'); //placeHolder avant images
-            image.textContent = "Bildbereich";
+            const desc = document.createElement('p');
+            desc.textContent = `Description: ${produit.description}`
+
+            const image = document.createElement('img');
+            image.src = produit.Image
             image.className = "imageProduit";
 
 
-            produitTexte.appendChild(nom);
-            produitTexte.appendChild(color);
+            produitTexte.appendChild(name);
             produitTexte.appendChild(price);
+            produitTexte.appendChild(desc);
 
             produitCarte.appendChild(produitTexte);
             produitCarte.appendChild(image);

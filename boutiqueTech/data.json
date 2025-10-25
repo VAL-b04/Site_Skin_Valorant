@@ -1,15 +1,8 @@
 {
-    "skin":  [
-        { "id": "1", "name": "Ding1",  "couleur": "Grün",    "prix": "17 Geld" },
-        { "id": "2", "name": "Ding2",  "couleur": "Rot",     "prix": "66 Geld" },
-        { "id": "3", "name": "Ding3",  "couleur": "Gelb",    "prix": "33 Geld" },
-        { "id": "4", "name": "Ding4",  "couleur": "Blau",    "prix": "42 Geld" },
-        { "id": "5", "name": "Ding5",  "couleur": "Schwarz", "prix": "99 Geld" },
-        { "id": "6", "name": "Ding6",  "couleur": "Weiß",    "prix": "15 Geld" },
-        { "id": "7", "name": "Ding7",  "couleur": "Rosa",    "prix": "24 Geld" },
-        { "id": "8", "name": "Ding8",  "couleur": "Lila",    "prix": "58 Geld" },
-        { "id": "9", "name": "Ding9",  "couleur": "Braun",   "prix": "9 Geld"  },
-        { "id": "10", "name": "Ding10", "couleur": "Orange",  "prix": "27 Geld" },
-        { "id": "11", "name": "Ding11", "couleur": "Türkis",  "prix": "44 Geld" },
-        { "id": "12", "name": "Ding12", "couleur": "Silber",  "prix": "120 Geld" }]
+    "Ares": [
+            {"nom": "Nébuleuse", "prix": "[-]", "description": "[-]", "Image": "/image/Ares_(Nébuleuse).png"},
+            {"nom": "Sentinelles de la lumière", "prix": "[-]", "description": "[-]", "Image": "/image/Ares_(Sentinelles_de_la_lumière).png"},
+            {"nom": "Singularité", "prix": "[-]", "description": "[-]", "Image": "/image/Ares_(Singularité).png"},
+            {"nom": "VALORANT GO! Vol. 2", "prix": "[-]", "description": "[-]", "Image": "/image/Ares (VALORANT GO! Vol. 2).png"}
+    ]
 }
