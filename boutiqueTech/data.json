@@ -3,6 +3,31 @@
             {"nom": "Nébuleuse", "prix": "[-]", "description": "[-]", "Image": "/image/Ares_(Nébuleuse).png"},
             {"nom": "Sentinelles de la lumière", "prix": "[-]", "description": "[-]", "Image": "/image/Ares_(Sentinelles_de_la_lumière).png"},
             {"nom": "Singularité", "prix": "[-]", "description": "[-]", "Image": "/image/Ares_(Singularité).png"},
-            {"nom": "VALORANT GO! Vol. 2", "prix": "[-]", "description": "[-]", "Image": "/image/Ares (VALORANT GO! Vol. 2).png"}
+            {"nom": "VALORANT GO! Vol. 2", "prix": "[-]", "description": "[-]", "Image": "/image/Ares_(VALORANT_GO!_Vol.2).png"},
+            {"nom": "Vengeance de Gaïa", "prix": "[-]", "description": "[-]", "Image": "/image/Ares_(Vengeance_de_Gaïa).png"}
+    ],
+
+    "Bucky": [
+            {"nom": "Crise des radiants 001", "prix": "[-]", "description": "[-]", "Image": "/image/Bucky_(Crise_des_radiants_001).png"},
+            {"nom": "Origine", "prix": "[-]", "description": "[-]", "Image": "/image/Bucky_(Origines).png"},
+            {"nom": "Surrégime", "prix": "[-]", "description": "[-]", "Image": "/image/Bucky_(Surrégime).png"},
+            {"nom": "Vengeance de Gaïa", "prix": "[-]", "description": "[-]", "Image": "/image/Bucky_(Vengeance_de_Gaïa).png"},
+            {"nom": "Xéno-chasseur", "prix": "[-]", "description": "[-]", "Image": "/image/Bucky_(Xéno-chasseur).png"}
+    ],
+
+    "Bulldog": [
+            {"nom": "Araxys", "prix": "[-]", "description": "[-]", "Image": "/image/Bulldog_(Araxys).png"},
+            {"nom": "Phaseguard", "prix": "[-]", "description": "[-]", "Image": "/image/Bulldog_(Phaseguard).png"},
+            {"nom": "protocole 781-A", "prix": "[-]", "description": "[-]", "Image": "/image/Bulldog_(protocole_781-A).png"},
+            {"nom": "Radiant Entertainment System", "prix": "[-]", "description": "[-]", "Image": "/image/Bulldog_(Radiant_Entertainment_System).png"},
+            {"nom": "Spectrum", "prix": "[-]", "description": "[-]", "Image": "/image/Bulldog_(Spectrum).png"}
+    ],
+
+    "Classic": [
+            {"nom": "Cryostase", "prix": "[-]", "description": "[-]", "Image": "/image/Classic_(Cryostase).png"},
+            {"nom": "Divergence", "prix": "[-]", "description": "[-]", "Image": "/image/Classic_(Divergence).png"},
+            {"nom": "Glitchpop", "prix": "[-]", "description": "[-]", "Image": "/image/Classic_(Glitchpop).png"},
+            {"nom": "Nocturnum", "prix": "[-]", "description": "[-]", "Image": "/image/Classic_(Nocturnum).png"},
+            {"nom": "Zircocarbone", "prix": "[-]", "description": "[-]", "Image": "/image/Classic_(Zircocarbone).png"}
     ]
 }

@@ -1,7 +1,7 @@
 @font-face
 {
     font-family: 'Valorant';
-    src: url('font/Valorant Font.ttf');
+    src: url('/font/Valorant_Font.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -19,6 +19,7 @@ body {
     overflow-x: hidden;
 }
 
+/* navbar */
 .navbar {
 background: rgba(0, 0, 0, 0.95);
 backdrop-filter: blur(20px);
@@ -161,24 +162,60 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
     }
 }
 
-h1 {
+/* Animation titre */
+.glitch {
     margin-top: 100px;
-    margin-bottom: 15px;
     font-family: 'Valorant';
+    font-size: 8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #ff4655;
+    text-shadow: 
+        0 0 20px rgba(255, 70, 85, 0.8),
+        0 0 40px rgba(255, 70, 85, 0.6),
+        0 0 60px rgba(255, 70, 85, 0.4);
+    animation: glitch 3s infinite;
+}
+
+@keyframes glitch {
+    0%, 90%, 100% {
+        transform: translate(0);
+    }
+    92% {
+        transform: translate(-2px, 2px);
+    }
+    94% {
+        transform: translate(2px, -2px);
+    }
+    96% {
+        transform: translate(-2px, -2px);
+    }
+    98% {
+        transform: translate(2px, 2px);
+    }
 }
 
 /* page boutique*/
 .zoneProduit {
+    width: 85%;
+    float: right;
+    margin-bottom: 50px;
+}
+
+.zoneAres, .zoneBucky, .zoneClassic {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
     justify-content: center;
+    padding-top: 100px;
 }
 
 .carteProduit {
     width: calc(30% - 10px);
-    height: 100px;
+    height: 110px;
     display: flex;
     margin: 0px;
     align-items: center;
@@ -211,16 +248,12 @@ h1 {
     border-radius: 15px;
     background-color: #1a2332;
 }
-
-footer {
-    margin-top: 10px;
-    background-color: gray;
-    color: white;
-}
-
+  
+    /* partie responsive */
 @media (max-width: 915px) {
     .carteProduit {
         width: calc(50% - 10px);
+        height: 220px;
     }
 
     .carteProduit:hover {
@@ -232,10 +265,19 @@ footer {
 @media (max-width: 412px) {
     .carteProduit {
         width: calc(100% - 10px);
+        width: 22;
     }
 
     .carteProduit:hover {
         width: calc(100% - 10px);
         box-shadow: 0 10px 30px rgba(255, 70, 85, 0.8);
     }
+}
+
+/* footer */
+footer {
+    clear: both;
+    margin-top: 10px;
+    background-color: gray;
+    color: white;
 }
