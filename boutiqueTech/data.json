@@ -18,7 +18,7 @@
     "Bulldog": [
         {"nom": "Araxys", "prix": "2000", "description": "Un fusil automatique compact mais puissant.", "Image": "image/Bulldog_(Araxys).png"},
         {"nom": "Phaseguard", "prix": "2100", "description": "Protégé par l’énergie, chaque tir traverse les obstacles.", "Image": "image/Bulldog_(Phaseguard).png"},
-        {"nom": "protocole 781-A", "prix": "2200", "description": "Une arme standardisée, fiable et efficace.", "Image": "image/Bulldog_(protocole_781-A).png"},
+        {"nom": "protocole 781-A", "prix": "2200", "description": "Une arme standardisée, fiable et efficace.", "Image": "image/Bulldog_(Protocole_781-A).png"},
         {"nom": "Radiant Entertainment System", "prix": "2300", "description": "Fusion de technologie rétro et puissance moderne.", "Image": "image/Bulldog_(Radiant_Entertainment_System).png"},
         {"nom": "Spectrum", "prix": "2250", "description": "Une série de couleurs et de lumières pour embellir la destruction.", "Image": "image/Bulldog_(Spectrum).png"}
     ],
