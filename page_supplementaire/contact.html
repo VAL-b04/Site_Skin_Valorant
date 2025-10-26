@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="../logo/logo2.png">
+  <link rel="stylesheet" href="contact_css.css">
+  <title>Contact - Valorant Marketplace</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="lien_page">
+            <div class="nav_left">
+                <div class="logo">
+                    <a href="index.html"><img src="../logo/logo2.png" alt="logo valo" class="logo_navbar"></a>
+                </div>
+                <div class="nav_links">
+                    <a href="index.html" class="links">Accueil</a>
+                    <a href="boutique.html" class="links">Boutique</a>
+                    <a href="panier.html" class="links">Panier</a>
+                    <a href="apropos.html" class="links">A propos</a>
+                </div>
+            </div>
+            <div class="nav_icons">
+                <button class="icon_btn" href="#"><span>Connexion</span></button>
+            </div>
+        </div>
+    </nav>
+    
+  <div class="card" role="main" aria-labelledby="titre">
+    <h1 id="titre">Contact rapide</h1>
+
+    <form id="miniContact" onsubmit="handleSubmit(event)">
+      <label for="nom">Nom</label>
+      <input id="nom" name="nom" type="text" placeholder="Votre nom" required>
+
+      <label for="email">Adresse email</label>
+      <input id="email" name="email" type="email" placeholder="exemple@domaine.com" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Ecrivez votre message..." required></textarea>
+
+      <button class="btn" type="submit">Envoyer</button>
+
+      <p class="note">Formulaire de contact - On adore recevoir vos messages.</p>
+    </form>
+  </div>
+
+  <script>
+    function handleSubmit(e){
+      e.preventDefault();
+      alert("Désolé, notre cypher est déjà en game et ne peut pas traiter votre demande. Vous devriez retourner acheter des skins.");
+      window.location.href = "Accueil.html";
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="../logo/logo2.png">
+    <link rel="stylesheet" href="support_css.css">
+    <title>Support — Valorant Marketplace</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="lien_page">
+            <div class="nav_left">
+                <div class="logo">
+                    <a href="index.html"><img src="../logo/logo2.png" alt="logo valo" class="logo_navbar"></a>
+                </div>
+                <div class="nav_links">
+                    <a href="index.html" class="links">Accueil</a>
+                    <a href="boutique.html" class="links">Boutique</a>
+                    <a href="panier.html" class="links">Panier</a>
+                    <a href="apropos.html" class="links">A propos</a>
+                </div>
+            </div>
+            <div class="nav_icons">
+                <button class="icon_btn" href="#"><span>Connexion</span></button>
+            </div>
+        </div>
+    </nav>
+    <div class="content-wrapper" role="main" aria-labelledby="titre">
+        <h1 id="titre">Support - Valorant Marketplace</h1>
+        <p class="intro">
+            Utilisez ce formulaire pour soumettre une requete au departement fictif de support de Valorant Marketplace.  
+            Votre requete sera traite dans les plus brefs delais par VAL Incorportion
+        </p>
+
+        <form id="supportForm">
+            <div>
+                <label for="nom">Nom complet</label>
+                <input type="text" id="nom" name="nom" placeholder="Entrez votre nom complet" required>
+            </div>
+
+            <div>
+                <label for="email">Adresse email</label>
+                <input type="email" id="email" name="email" placeholder="exemple@domaine.com" required>
+            </div>
+
+            <div>
+                <label for="sujet">Sujet de la requete</label>
+                <select id="sujet" name="sujet" required>
+                    <option value="">-- Selectionnez un sujet --</option>
+                    <option>Probleme de paiement</option>
+                    <option>Question sur une commande</option>
+                    <option>Demande d'assistance</option>
+                    <option>Signalement d'une anomalie</option>
+                    <option>Probleme avec les pops-up</option>
+                    <option>Autre</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="type">Type de probleme</label>
+                <select id="type" name="type">
+                    <option value="">-- Selectionnez un type --</option>
+                    <option>Technique</option>
+                    <option>Financier</option>
+                    <option>Graphique</option>
+                    <option>Emotionnel</option>
+                    <option>Existentiel</option>
+                    <option>Metaphysique</option>
+                    <option>Sprituel</option>
+                    <option>Ideologique</option>
+                    <option>Hypermetrique</option>
+                    <option>Sensoriel</option>
+
+                </select>
+            </div>
+
+            <div>
+                <label for="message">Description detaillee</label>
+                <textarea id="message" name="message" placeholder="Expliquez votre probleme fictif en detail..." required></textarea>
+            </div>
+
+            <div>
+                <label for="fichier">Joindre un screenshot (optionnel mais recommende)</label>
+                <input type="file" id="fichier" name="fichier" accept=".jpg,.png,.pdf,.zip">
+            </div>
+
+            <div>
+                <label for="urgence">Niveau d'urgence (cela va nous permettre de trier les requetes selon l'ordre d'urgence)</label>
+                <select id="urgence" name="urgence">
+                    <option value="">-- Choisissez un niveau --</option>
+                    <option>0 - Pas important</option>
+                    <option>1 - Importance légère</option>
+                    <option>2 - Importance relative</option>
+                    <option>3 - Moyennement important </option>
+                    <option>4 - Assez important </option>
+                    <option>5 - Pas mal important</option>
+                    <option>6 - Important</option>
+                    <option>7 - Urgent</option>
+                    <option>8 - Tres urgent</option>
+                    <option>9 - Critique</option>
+                </select>
+            </div>
+
+            <button type="submit">Envoyer la requete</button>
+
+            <p class="note">
+                En soumettant ce formulaire, vous confirmez que vous avez lu, compris, et accepte que  
+                votre message soit non-lu avec l'affichage d'un faux pop-up.
+        </form>
+
+        <footer>
+            © 2025 Valorant Marketplace — Division Support.  
+            Tous droits reserves.
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById("supportForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+            alert("Transimission de Requête. Veuillez patientiez pour approximativement : 140h 34min");
+            this.reset();
+            window.location.href = "Accueil.html";
+        });
+    </script>
+</body>
+</html>
