@@ -21,5 +21,3 @@ Bienvenue sur Valorant Marketplace, la deuxième itération créative de VAL Inc
 Ici, vous pourrez commander des skins d'armes Valorant.
 
 Merci de dépenser un maximum d'argent pour notre enrichisement personnel.
-
-
