@@ -11,8 +11,11 @@
 @font-face
 {
     font-family: 'Valorant';
-    src: url('font/Valorant Font.ttf');
+    src: url('font/Valorant_Font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 /* ===== BASE STYLES ===== */
 :root
