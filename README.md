@@ -8,3 +8,11 @@
 - [LUKAS BENDIAF](mailto:lukas.bendiaf@edu.univ-fcomte.fr)
 - [MATTÉO BRONNER](mailto:matteo.bronner@edu.univ-fcomte.fr)
 
+## Réalisation des pages :
+- Page d'accueil : ADAM BAJIC
+- Page boutique : MATTEO BRONNER
+- Page panier : VALENTIN BEURET
+- Page à Propos : LUKAS BENDIAF
+ (+ Page bonus : ADAM BAJIC. Ne cliquez surtout pas sur le bouton connexion)
+
+
