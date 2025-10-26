@@ -5,27 +5,6 @@
 ### Membre du groupe :
 - [ADAM BAJIC (référent)](mailto:adam.bajic@edu.univ-fcomte.fr)
 - [VALENTIN BEURET](mailto:valentin.beuret@edu.univ-fcomte.fr)
-- [LUKAS BENDIAF](mailto:lukas.bendiaf@edu.umlp.fr)
+- [LUKAS BENDIAF](mailto:lukas.bendiaf@edu.univ-fcomte.fr)
 - [MATTÉO BRONNER](mailto:matteo.bronner@edu.univ-fcomte.fr)
-
-### Présentation du sujet :  
-
-
-### Développement des pages Web et validation des pages
-
-### Page d'accueil 
-
-Auteur : 
-
-### Boutique
-
-Auteur : 
-
-### Panier
-
-Auteur : 
-
-### A propos
-
-Auteur : 
 
