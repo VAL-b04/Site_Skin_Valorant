@@ -1,29 +1,201 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
     <html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="/logo/logo2.png">
+        <link rel="icon" type="image/x-icon" href="logo/logo2.png">
         <link rel="stylesheet" href="accueil_css.css">
         <title>Valorant Marketplace</title>
     </head>
     <body>
         <div class="content-wrapper">   
         <nav class="navbar">
-                <div class="lien_page">
-                    <div class="nav_left">
-                        <div class="logo">
-                            <a href="Accueil.html"><img src="logo/logo2.png" alt="logo valo" class="logo_navbar"></a>
-                        </div>
-                        <div class="nav_links">
-                            <a href="Accueil.html" class="links">Accueil</a>
-                            <a href="boutique.html" class="links">Boutique</a>
-                            <a href="panier.html" class="links">Panier</a>
-                            <a href="apropos.html" class="links">A propos</a>
-                        </div>
+            <div class="lien_page">
+                <div class="nav_left">
+                    <div class="logo">
+                        <a href="index.html"><img src="logo/logo2.png" alt="logo valo" class="logo_navbar"></a>
                     </div>
-                    <div class="nav_icons">
-                        <button class="icon_btn"><span>Connexion</span></button>
+                    <div class="nav_links">
+                        <a href="index.html" class="links">Accueil</a>
+                        <a href="boutique.html" class="links">Boutique</a>
+                        <a href="panier.html" class="links">Panier</a>
+                        <a href="apropos.html" class="links">A propos</a>
                     </div>
                 </div>
-            </nav>
+                <div class="nav_icons">
+                    <a href="page_supplementaire/connexion_tres_serieuse.html"><button class="icon_btn">Connexion</button></a>
+                </div>
+            </div>
+        </nav>
+
+            
+            <section class="hero">
+                <div class="hero_deco">
+                    <img src="img/Vandal.png" alt="Vandal KTAC" class="hero_deco_img">
+                </div>
+
+                <div class="hero_content">
+                    <h1 class="hero_title">Valorant Marketplace</h1>
+                    <p class="hero_subtitle">Les meilleurs skins premium pour dominer vos parties</p>
+                    <a href="boutique.html"><button class="hero_btn">Découvrir la collection</button></a>
+                </div>
+            </section>
+
+
+            <section class="section">
+                <h2 class="section_title">Nouveautes</h2>
+                <p class="section_subtitle">Les derniers skins ajoutes a notre collection</p>
+                <div class="cards_grid">
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="img/reaver_vandal.png" alt="Reaver Vandal">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="card_title">Reaver Vandal</h3>
+                            <p class="card_price">
+                                2175
+                                <span><img src="img/Valorant_Points.png" class="vp_icon"></span>
+                            </p>
+                            <a href="panier.html"><button class="card_btn"><span>Ajouter au panier</span></button></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="img/prime_phantom.png" alt="Prime Phantom">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="card_title">Prime Phantom</h3>
+                            <p class="card_price">
+                                1775
+                                <span><img src="img/Valorant_Points.png" class="vp_icon"></span>
+                            </p>
+                            <a href="panier.html"><button class="card_btn"><span>Ajouter au panier</span></button></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="img/elderflame_Vandal.png" alt="Elderflame Vandal">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="card_title">Elderflame Vandal</h3>
+                            <p class="card_price">
+                                2475
+                                <span><img src="img/Valorant_Points.png" class="vp_icon"></span>
+                            </p>
+                            <a href="panier.html"><button class="card_btn"><span>Ajouter au panier</span></button></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="img/ion_sheriff.png" alt="Ion Sheriff">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="card_title">Ion Sheriff</h3>
+                            <p class="card_price">
+                                1775
+                                <span><img src="img/Valorant_Points.png" class="vp_icon"></span>
+                            </p>
+                            <a href="panier.html"><button class="card_btn"><span>Ajouter au panier</span></button></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section_title">Collections Populaires</h2>
+                <p class="section_subtitle">Explorez nos collections les plus prisees</p>
+                
+                
+                <div class="parallax_container">
+                    <a href="boutique.html">
+                        <div class="parallax_card parallax_card_left">
+                            <div class="parallax_image">
+                                <img src="img/reaver_collection.png" alt="Collection Reaver" class="parallax_img">
+                            </div>
+                            <div class="parallax_content">
+                                <h3>Collection Reaver</h3>
+                                <p>L'elegance des tenebres</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="boutique.html">
+                        <div class="parallax_card parallax_card_right">
+                            <div class="parallax_image">
+                                <img src="img/prime_collection.png" alt="Collection Prime" class="parallax_img">
+                            </div>
+                            <div class="parallax_content">
+                                <h3>Collection Prime</h3>
+                                <p>Epuration et minimalisme</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <div class="featured_section">
+                <h2 class="featured_title">OFFRE FLASH</h2>
+                <p class="featured_text">Partenariat : -70% sur votre article le plus cher apres un abonnement a VAL incorporation</p>
+                <a href="https://val-b04.github.io/Site_Free/"><button class="featured_btn">Decouvrir l'offre</button></a>
+            </div>
+
+            <section class="section">
+                <h2 class="section_title">Meilleures Ventes</h2>
+                <p class="section_subtitle">Les skins les plus populaires de la communaute</p>
+                <div class="cards_grid">
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="img/oniphantom.png" alt="Oni Phantom">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="card_title">Oni Phantom</h3>
+                            <p class="card_price">
+                                1775
+                                <span><img src="img/Valorant_Points.png" class="vp_icon"></span>
+                            </p>
+                            <a href="panier.html"><button class="card_btn"><span>Ajouter au panier</span></button></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="img/sentoflights.png" alt="Sentinels of Light">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="card_title">Sentinels of Light</h3>
+                            <p class="card_price">
+                                2175
+                                <span><img src="img/Valorant_Points.png" class="vp_icon"></span>
+                            </p>
+                            <a href="panier.html"><button class="card_btn"><span>Ajouter au panier</span></button></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="img/protocol.png" alt="Protocol 781-A"></div>
+                        <div class="card_content">
+                            <h3 class="card_title">Protocol 781-A</h3>
+                            <p class="card_price">
+                                2475
+                                <span><img src="img/Valorant_Points.png" class="vp_icon"></span>
+                            </p>
+                            <a href="panier.html"><button class="card_btn"><span>Ajouter au panier</span></button></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <footer>
+                <div class="footer_content">
+                    <div class="footer_links">
+                        <a href="page_supplementaire/conf.html" class="footer_link">Politique de confidentialite</a>
+                        <a href="page_supplementaire/contact.html" class="footer_link">Contact</a>
+                        <a href="page_supplementaire/faq.html" class="footer_link">FAQ</a>
+                        <a href="page_supplementaire/support.html" class="footer_link">Support</a>
+                    </div>
+                    <p class="copyright">© 2025 Valorant Marketplace - Merci de nous donner de l'argent au plus vite</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+    </html>
