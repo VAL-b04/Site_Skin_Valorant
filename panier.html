@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valorant Skins - Panier</title>
+  <link rel="stylesheet" href="style_panier.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="lien_page">
+      <div class="nav_left">
+        <a href="Accueil.html"><img src="logo/logo2.png" alt="logo valo" class="logo_navbar"></a>
+        <div class="nav_links">
+          <a href="Accueil.html" class="links">Accueil</a>
+          <a href="boutique.html" class="links">Boutique</a>
+          <a href="panier.html" class="links active">Panier</a>
+          <a href="apropos.html" class="links">À propos</a>
+        </div>
+      </div>
+      <div class="nav_icons">
+        <button class="icon_btn"><span>Connexion</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-container">
+    <!-- Background effects -->
+    <div class="bg-effects">
+      <div class="bg-glow bg-glow-1"></div>
+      <div class="bg-glow bg-glow-2"></div>
+      <div class="scanline"></div>
+    </div>
+
+    <!-- Promo Banner -->
+    <div class="promo-banner" id="promoBanner">
+      <div class="promo-content">
+        <div class="promo-text">
+          <div class="promo-title">OFFRE SPÉCIALE LIMITÉE</div>
+          <div class="promo-subtitle">-10% SUR TOUTE LA BOUTIQUE • ÉCONOMISEZ JUSQU'À 2000 VP</div>
+          <div class="promo-timer">Fin de l'offre dans: <span class="countdown">23:59:59</span></div>
+        </div>
+      </div>
+      <button class="promo-close" onclick="document.getElementById('promoBanner').style.display='none'">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Main content -->
+    <div class="main-content">
+
+      <!-- Weapons grid -->
+      <div class="weapons-grid">
+        <!-- Couteau Altitude -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×1</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Couteau-poing américain (Altitude).png" alt="Couteau-poing Américain Altitude">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Couteau - Altitude</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>4350</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Classic Glitchpop -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×1</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Classic_(Glitchpop).png" alt="Classic Glitchpop">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Classic - Glitchpop</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>2175</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Classic Nocturnum -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×1</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Classic_(Nocturnum).png" alt="Classic Nocturnum">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Classic - Nocturnum</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>1775</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vandal Reaver -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×1</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Vandal_(Rêvailes d'Evori).png" alt="Vandal Reaver">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Vandal - Reaver</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>1775</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phantom Oni -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×2</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Phantom_(Radiant_Entertainment_System).png" alt="Phantom Oni">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Phantom - Oni</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>1499</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon vp-icon-small">
+              </div>
+              <div class="price-total">
+                <span>2998</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon-tiny">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ghost Singularité -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×3</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Ghost_(Singularité).png" alt="Ghost Singularité">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Ghost - Singularité</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>1499</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+              <div class="price-total">
+                <span>4497</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon-tiny">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Operator Araxys -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×1</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="image/Operator_(Araxys).png" alt="Operator Araxys">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Operator - Araxys</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>2200</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vandal Prime -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×1</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Vandal_(Rêvailes d'Evori).png" alt="Vandal Prime">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Vandal - Prime</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>1899</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phantom Ion -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×2</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Phantom_(Araxys).png" alt="Phantom Araxys">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Phantom - Ion</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>1775</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+              <div class="price-total">
+                <span>3550</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon-tiny">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vandal Reaver -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×1</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Vandal_(Rêvailes d'Evori).png" alt="Vandal Reaver">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Vandal - Reaver</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>1775</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vandal Glitchpop -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×1</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Vandal_(Phaseguard).png" alt="Vandal Phaseguard">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Vandal - Glitchpop</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>2175</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phantom Ruin -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×1</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Phantom_(Radiant_Entertainment_System).png" alt="Phantom Ruin">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Phantom - Ruin</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>1999</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vandal Forsaken -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×1</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Vandal_(Feu_ancien).png" alt="Vandal Feu Ancien">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Vandal - Forsaken</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>2250</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phantom Protocol -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×1</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Phantom_(Araxys).png" alt="Phantom Protocol">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Phantom - Protocol</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>1899</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vandal RGX -->
+        <div class="weapon-card">
+          <div class="quantity-badge">×1</div>
+          <div class="weapon-image">
+            <div class="image-glow"></div>
+            <img src="./image/Vandal_(EX.O).png" alt="Vandal EX.O">
+          </div>
+          <div class="weapon-info">
+            <h3 class="weapon-name">Vandal - RGX</h3>
+            <div class="weapon-price">
+              <div class="price-main">
+                <span>2199</span>
+                <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Summary -->
+      <div class="summary-wrapper">
+        <div class="summary-container">
+          <div class="summary-header"><h2 class="summary-title">Ton panier</h2></div>
+          <div class="summary-content">
+
+            <div class="summary-line summary-toggle" id="toggleArticles">
+              <span class="summary-label">Récapitulatif des articles</span>
+              <svg class="toggle-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+            <div class="weapon-summary" id="articlesList">
+              <!-- Couteau et Pistolets -->
+              <div class="summary-item">
+                <span>1x Couteau - Altitude</span>
+                <div class="summary-item-price">
+                  <span>4350</span>
+                  <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon-small">
+                </div>
+              </div>
+              <div class="summary-item">
+                <span>1x Classic - Glitchpop</span>
+                <div class="summary-item-price">
+                  <span>2175</span>
+                  <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon-small">
+                </div>
+              </div>
+              <div class="summary-item">
+                <span>1x Classic - Nocturnum</span>
+                <div class="summary-item-price">
+                  <span>1775</span>
+                  <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon-small">
+                </div>
+              </div>
+              <!-- Vandal et Phantom -->
+              <div class="summary-item">
+                <span>1x Vandal - Prime</span>
+                <div class="summary-item-price">
+                  <span>1899</span>
+                  <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon-small">
+                </div>
+              </div>
+              <div class="summary-item">
+                <span>2x Phantom - Ion</span>
+                <div class="summary-item-price">
+                  <span>3550</span>
+                  <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon-small">
+                </div>
+              </div>
+              <div class="summary-item">
+                <span>1x Vandal - Reaver</span>
+                <div class="summary-item-price">
+                  <span>1775</span>
+                  <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon-small">
+                </div>
+              </div>
+              <div class="summary-item">
+                <span>1x Vandal - Glitchpop</span>
+                <div class="summary-item-price">
+                  <span>2175</span>
+                  <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon-small">
+                </div>
+              </div>
+              <div class="summary-item">
+                <span>1x Phantom - Ruin</span>
+                <div class="summary-item-price">
+                  <span>1999</span>
+                  <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon-small">
+                </div>
+              </div>
+              <div class="summary-item">
+                <span>1x Vandal - Forsaken</span>
+                <div class="summary-item-price">
+                  <span>2250</span>
+                  <img src="./image/Valorant_Points.png" alt="VP" class="vp-icon-small">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="summary-line">
+              <span class="summary-label">Sous-total</span>
+              <div class="summary-price"><span class="price-value">30365</span><img src="./image/Valorant_Points.png" class="vp-icon-small" alt="VP"></div>
+            </div>
+
+            <div class="discount-box">
+              <div class="discount-content">
+                <div class="discount-left">
+                  <div class="discount-pulse"></div>
+                  <span class="discount-label">Réduction Active</span>
+                  <span class="discount-badge">-10%</span>
+                </div>
+                <div class="discount-right">
+                  <span class="discount-minus">-</span>
+                  <span class="discount-value">3037</span>
+                  <img src="./image/Valorant_Points.png" class="vp-icon-medium" alt="VP">
+                </div>
+              </div>
+            </div>
+
+            <div class="total-box">
+              <span class="total-label">Total</span>
+              <div class="total-amount"><span class="total-value">30365</span><img src="./image/Valorant_Points.png" class="vp-icon-large" alt="VP"></div>
+            </div>
+
+            <button class="checkout-btn"><span class="checkout-label">Valider la commande</span></button>
+
+            <!-- Moyens de Paiement -->
+            <div class="payment-section">
+              <p class="payment-title">Paiement sécurisé</p>
+              <div class="payment-methods">
+                <div class="payment-card">
+                  <img src="./image/Visa_Logo.png" alt="Visa" class="payment-logo">
+                </div>
+                <div class="payment-card">
+                  <img src="./image/MasterCard_Logo.png" alt="Mastercard" class="payment-logo">
+                </div>
+                <div class="payment-card">
+                  <img src="./image/PayPal_Logo.png" alt="PayPal" class="payment-logo">
+                </div>
+                <div class="payment-card">
+                  <img src="./image/American_Express_Logo.png" alt="American Express" class="payment-logo">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
