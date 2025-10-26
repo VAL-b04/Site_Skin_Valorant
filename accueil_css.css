@@ -917,6 +917,7 @@ footer::before {
     }
     .nav_links {
         gap: 20px;
+        white-space: nowrap;
     }
     .hero_title {
         font-size: 48px;
@@ -932,7 +933,6 @@ footer::before {
         margin: 60px 30px;
     }
 }
-
 
 
 

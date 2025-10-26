@@ -104,7 +104,7 @@ footer {
 @media (max-width: 768px) {
     .content-wrapper {
         padding: 25px;
-        margin: 60px 15px;
+        margin: 200px 15px;
     }
     h1 {
         font-size: 24px;
@@ -249,5 +249,6 @@ footer {
     }
     .nav_links {
         gap: 20px;
+        white-space: nowrap;
     }
 }

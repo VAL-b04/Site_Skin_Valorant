@@ -225,11 +225,13 @@ textarea {
     }
     .nav_links {
         gap: 20px;
+        white-space: nowrap;
     }
     .title {
         font-size: 42px;
     }
     .main-content {
         padding: 20px 15px 0 15px;
+        margin-top: 200px;
     }
 }
