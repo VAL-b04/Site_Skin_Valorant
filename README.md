@@ -13,6 +13,6 @@
 - Page boutique : MATTEO BRONNER
 - Page panier : VALENTIN BEURET
 - Page à Propos : LUKAS BENDIAF
- (+ Page bonus : ADAM BAJIC. Ne cliquez surtout pas sur le bouton connexion)
+- (+ Page bonus : ADAM BAJIC. Ne cliquez surtout pas sur le bouton connexion)
 
 
