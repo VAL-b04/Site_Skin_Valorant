@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Valorant', sans-serif;
     background-color: #0f1923;
     color: #fff;
     overflow-x: hidden;
@@ -197,6 +197,91 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
     }
 }
 
+.main {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* beandeau de collections */
+.bandeauCollection {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(180deg, #0f1923 0%, #1a2332 100%);
+  border-left: 2px solid #ff4655;
+  box-shadow: -5px 0 20px rgba(255, 70, 85, 0.3);
+}
+
+.scrollContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: scrollCollections 50s linear infinite;
+}
+
+/* Animation de défilement infini */
+@keyframes scrollCollections {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+/* Pause de l'animation au hover */
+.bandeauCollection:hover .scrollContent {
+    animation-play-state: paused;
+}
+
+.collection {
+  text-align: center;
+  padding: 40px 10px;
+  color: white;
+}
+
+.collection img {
+  width: 70%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 15px rgba(255, 70, 85, 0.6);
+}
+
+.collection img:hover {
+    width: calc(40% - 10px);
+    box-shadow: 0 0 50px rgba(255, 70, 85, 0.9), 0 0 30px rgba(255, 70, 85, 0.7);
+    border-color: #ff7a85;
+    transform: scale(2);
+
+    animation: pulse1 2.5s infinite alternate; /* animation au hover */
+}
+
+@keyframes pulse1 {
+    0% {
+        box-shadow: 0 0 20px rgba(255, 70, 85, 0.9), 0 0 10px rgba(255, 70, 85, 0.7);
+        transform: scale(2);
+    }
+    100% {
+        box-shadow: 0 0 60px rgba(255, 70, 85, 1), 0 0 30px rgba(255, 70, 85, 0.9);
+        transform: scale(1.8);
+    }
+}
+
+.collection h3 {
+  color: #ff4655;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.collection p {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.8);
+}
+
 /* page boutique*/
 .zoneProduit {
     width: 85%;
@@ -209,7 +294,7 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
     margin-bottom: 20px;
 
     font-family: 'Valorant';
-    text-align: center;
+    text-align: start;
     font-size: 2rem;
     color: #ff4655;
     text-shadow: 
@@ -218,24 +303,42 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
         0 0 60px rgba(255, 70, 85, 0.4);
 }
 
+/* zig-zag titre*/
+.zoneProduit h2:nth-of-type(odd) {
+  text-align: start;
+  margin-left: 100px;
+}
+.zoneProduit h2:nth-of-type(even) {
+  text-align: end;
+  margin-right: 100px;
+}
+
 .zoneCartesProduits {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     padding-top: 0;
     margin-bottom: 40px;
+}
+
+/* zig-zag placement carte*/
+.zoneCartesProduits:nth-of-type(even) {
+    justify-content: end;
+    margin-right: 100px;
 }
 
 
 .carteProduit {
     width: calc(30% - 10px);
-    height: 210px;
+    height: 240px;
     display: flex;
     margin: 0px;
     align-items: center;
     max-width: 400px;
+    justify-content: space-between;
+    overflow: hidden;
 
     background: linear-gradient(135deg, #1a2332 0%, #0f1923 100%);
     border-radius: 15px;
@@ -244,13 +347,28 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
     transition: all 0.5s ease-in-out;
 }
 
+.prixProduit {
+    color: #ff4655;
+}
+
+.carteProduit p {
+    margin-bottom: 10px;
+}
+
+.iconePrix {
+    width: 16px; 
+    height: 16px;
+    vertical-align: middle; 
+    margin-left: 4px;
+}
+
 .carteProduit:hover {
     width: calc(40% - 10px);
     box-shadow: 0 0 50px rgba(255, 70, 85, 0.9), 0 0 30px rgba(255, 70, 85, 0.7);
     border-color: #ff7a85;
     transform: scale(1.05);
 
-    animation: pulse 2.5s infinite alternate; /* animation au hover */
+    animation: pulse 2.5s infinite alternate;
 }
 
 @keyframes pulse {
@@ -287,10 +405,20 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
         font-size: 7rem;
     }
 
+    .bandeauCollection {
+        display: none;
+    }
+
     .zoneProduit {
         width: 95%;
         float: none;
         margin: 0 auto;
+    }
+
+    /* zig-zag placement carte*/
+    .zoneCartesProduits:nth-of-type(even) {
+        justify-content: end;
+        margin-right: 10px;
     }
 
     .carteProduit {
@@ -310,10 +438,24 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
         font-size: 4rem;
     }
 
+    .bandeauCollection {
+        display: none;
+    }
+
     .zoneProduit {
         width: 95%;
         float: none;
         margin: 0 auto;
+    }
+
+    /* zig-zag titre*/
+    .zoneProduit h2:nth-of-type(odd) {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .zoneProduit h2:nth-of-type(even) {
+        text-align: center;
+        margin-right: 0px;
     }
 
     .carteProduit {

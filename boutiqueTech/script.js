@@ -27,7 +27,8 @@ fetch('boutiqueTech/data.json')
                 name.innerHTML = `<strong>Nom :</strong> ${produit.nom}`;
 
                 const price = document.createElement('p');
-                price.innerHTML = `<strong> Prix :</strong> ${produit.prix}`;
+                price.innerHTML = `<strong> Prix :</strong> ${produit.prix} <img src="image/Valorant_Points.png" alt="VP" class="iconePrix">`;
+                price.className = "prixProduit";
 
                 const desc = document.createElement('p');
                 desc.innerHTML = `<strong> Description :</strong> <br> ${produit.description}`;
