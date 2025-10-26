@@ -173,7 +173,7 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
 /* Animation titre */
 .glitch {
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
     font-family: 'Valorant';
     font-size: 8rem;
     font-weight: 900;
@@ -265,7 +265,7 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
     display: flex;
     width: 100%;
     min-height: 100vh;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 
@@ -589,11 +589,11 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
 
 
     .zoneProduit {
-        margin-top: 50px; /* moins d'espace inutile */
-        width: 95%;
+        margin-top: 80px;
+        width: 100%;
         float: none;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 5%;
+        margin-right: 0%;
     }
 
     .zoneCartesProduits {
@@ -612,14 +612,10 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
 
     .carteProduit {
         width: calc(50% - 10px);
-        max-width: 300px;
-    }
-
-    .carteProduit:hover {
-        width: calc(50% - 10px);
-        box-shadow: 0 10px 30px rgba(255, 70, 85, 0.8);
+        max-width: 600px;
     }
 }
+
 
 @media (max-width: 412px) {
     .glitch {
@@ -638,36 +634,26 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
     }
 
 
-    .zoneProduit {
-        width: 95%;
-        float: none;
-        margin: 0 auto;
-    }
-
     .zoneCartesProduits {
-        margin-bottom: 50px;
-        gap: 100px;
-    }
-
-    /* zig-zag titre*/
-    .zoneProduit h2:nth-of-type(odd) {
-        text-align: center;
-        margin-left: 0px;
-    }
-    .zoneProduit h2:nth-of-type(even) {
-        text-align: center;
-        margin-right: 0px;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 750px;
+        margin-top: 10px;
+        justify-content: center;
     }
 
     .carteProduit {
         width: 100%;
-        max-width: 300px;
+        max-width: 500px;
+        flex-direction: column;
+        height: auto;
     }
 
-    .carteProduit:hover {
-        width: calc(100% - 10px);
-        box-shadow: 0 10px 30px rgba(255, 70, 85, 0.8);
+    .texteProduit {
+        width: 100%;
+        padding: 10px;
     }
+
 }
 
 

@@ -98,9 +98,9 @@
     "Phantom": [
         {"nom": "Araxys", "prix": "2950", "description": "Une technologie avancée qui transcende l’humanité.", "Image": "image/Phantom_(Araxys).png"},
         {"nom": "Radiant Entertainment System", "prix": "3200", "description": "Un hommage vibrant aux jeux rétro et à la gloire numérique.", "Image": "image/Phantom_(Radiant_Entertainment_System).png"},
-        {"nom": "[-]", "prix": "[-]", "description": "[-]", "Image": "[-]"},
-        {"nom": "[-]", "prix": "[-]", "description": "[-]", "Image": "[-]"},
-        {"nom": "[-]", "prix": "[-]", "description": "[-]", "Image": "[-]"}
+        {"nom": "Minima", "prix": "2130", "description": "Un design simple, pour une arme redoutable.", "Image": "image/Minima_phantom.png"},
+        {"nom": "Prime", "prix": "4700", "description": "Une arme dont seul sont desing égale sa puissance.", "Image": "image/prime_phantom.png"},
+        {"nom": "Oni", "prix": "3100", "description": "Une arme de légende, redoutable sur le champ de bataille.", "Image": "image/oniphantom.png"}
     ],
 
     "Sheriff": [
