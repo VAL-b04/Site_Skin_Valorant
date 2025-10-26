@@ -410,6 +410,7 @@ h1, h2, h3, h4
 {
     background: linear-gradient(135deg, var(--bg-darker), var(--bg-dark));
     border: 1.5px solid var(--border-color);
+    cursor: pointer;
     border-radius: 0.75rem;
     overflow: hidden;
     position: relative;
