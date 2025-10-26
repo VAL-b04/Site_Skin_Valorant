@@ -7,7 +7,7 @@
 @font-face
 {
     font-family: 'Valorant';
-    src: url('/font/Valorant_Font.ttf');
+    src: url('font/Valorant_Font.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,6 +17,15 @@ body {
     color: #fff;
     overflow-x: hidden;
 }
+
+*,
+button, 
+input, 
+select, 
+textarea {
+  font-family: inherit;
+}
+
 /*Police et pas pompier*/
 /* Hero Section */
 .hero {
@@ -979,3 +988,7 @@ body {
     }
 
 }
+
+
+
+
