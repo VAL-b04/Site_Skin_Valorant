@@ -19,6 +19,10 @@ body {
     overflow-x: hidden;
 }
 
+
+
+
+
 /* navbar */
 .navbar {
 background: rgba(0, 0, 0, 0.95);
@@ -162,9 +166,14 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
     }
 }
 
+
+
+
+
 /* Animation titre */
 .glitch {
     margin-top: 100px;
+    margin-bottom: 200px;
     font-family: 'Valorant';
     font-size: 8rem;
     font-weight: 900;
@@ -197,18 +206,78 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
     }
 }
 
+
+/* Effet de gravitation */
+.headerArmes {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.armesOrbitantes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.armesOrbitantes a {
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: 'Valorant';
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    pointer-events: auto;
+}
+
+.armesOrbitantes a::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ff4655, transparent);
+    transition: transform 0.3s ease;
+}
+
+.armesOrbitantes a:hover {
+    color: #ff4655;
+    text-shadow: 0 0 20px rgba(255, 70, 85, 0.5);
+}
+
+.armesOrbitantes a:hover::before {
+    transform: translateX(-50%) scaleX(1);
+}
+
+
+
+
 .main {
     display: flex;
     width: 100%;
     min-height: 100vh;
+    margin-top: 100px;
 }
+
+
+
+
 
 /* beandeau de collections */
 .bandeauCollection {
   position: fixed;
   top: 0;
   right: 0;
-  width: 300px;
+  width: 240px;
   height: 100vh;
   overflow: hidden;
   background: linear-gradient(180deg, #0f1923 0%, #1a2332 100%);
@@ -263,11 +332,11 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
 @keyframes pulse1 {
     0% {
         box-shadow: 0 0 20px rgba(255, 70, 85, 0.9), 0 0 10px rgba(255, 70, 85, 0.7);
-        transform: scale(2);
+        transform: scale(2.4);
     }
     100% {
         box-shadow: 0 0 60px rgba(255, 70, 85, 1), 0 0 30px rgba(255, 70, 85, 0.9);
-        transform: scale(1.8);
+        transform: scale(1.9);
     }
 }
 
@@ -282,12 +351,35 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
   color: rgba(255,255,255,0.8);
 }
 
+
+
+
 /* page boutique*/
 .zoneProduit {
     width: 85%;
     float: right;
     margin-bottom: 10px;
 }
+
+
+.toggleBtn {
+    display: inline-block;
+    width: 0; 
+    height: 0; 
+    margin-left: 10px;
+    vertical-align: middle;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 12px solid #ff4655;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* rotation quand la catégorie est fermée */
+.toggleBtn.closed {
+    transform: rotate(-90deg);
+}
+
 
 .titreArme {
     margin-top: 100px;
@@ -317,22 +409,34 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    align-items: center;
+    align-items: flex-start;
     justify-content: start;
     padding-top: 0;
     margin-bottom: 40px;
+    margin-left: 30px;
+
+    /* animation */
+    max-height: 1000px;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    opacity: 1;
+}
+
+.zoneCartesProduits.hidden {
+    max-height: 0;
+    opacity: 0;
 }
 
 /* zig-zag placement carte*/
 .zoneCartesProduits:nth-of-type(even) {
     justify-content: end;
+    margin-left: 0px;
     margin-right: 100px;
 }
 
 
 .carteProduit {
     width: calc(30% - 10px);
-    height: 240px;
+    height: 300px;
     display: flex;
     margin: 0px;
     align-items: center;
@@ -363,7 +467,6 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
 }
 
 .carteProduit:hover {
-    width: calc(40% - 10px);
     box-shadow: 0 0 50px rgba(255, 70, 85, 0.9), 0 0 30px rgba(255, 70, 85, 0.7);
     border-color: #ff7a85;
     transform: scale(1.05);
@@ -382,22 +485,77 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
     }
 }
 
-.imageProduit {
-    max-width: 50%;
-    object-fit: contain; 
-    border-radius: 15px;
-}
 
 .texteProduit {
     color: white;
     width: 50%;
     height: 100%;
     padding: 10px;
-
     border-radius: 15px;
     background-color: #1a2332;
+
+    display: flex;
+    flex-direction: column;
 }
-  
+
+
+/* bouton d'achat */
+.btnAcheter {
+    margin-top: auto;
+
+    background: linear-gradient(135deg, rgba(255, 70, 85, 0.15), rgba(255, 70, 85, 0.05));
+    border: 1.5px solid rgba(255, 70, 85, 0.4);
+    padding: 10px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+}
+
+.btnAcheter::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(255, 70, 85, 0.3);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.6s ease, height 0.6s ease;
+}
+
+.btnAcheter:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+.btnAcheter:hover {
+    background: linear-gradient(135deg, #ff4655, #ff2a3d);
+    border-color: #ff4655;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(255, 70, 85, 0.5);
+}
+
+.btnAcheter span {
+    position: relative;
+    z-index: 1;
+}
+
+
+.imageProduit {
+    max-width: 50%;
+    object-fit: contain; 
+    border-radius: 15px;
+}
+
+
     /* partie responsive */
 @media (max-width: 915px) {
     .glitch {
@@ -405,25 +563,56 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
         font-size: 7rem;
     }
 
+
+    .armesOrbitantes {
+        position: static; /* plus de gravitation */
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+        transform: none;
+        margin-top: 20px;
+        gap: 30px 10px;
+        margin-top: 40px;
+    }
+
+    .armesOrbitantes a {
+        position: static;
+        transform: none;
+        text-align: center;
+    }
+
+
     .bandeauCollection {
         display: none;
     }
 
+
     .zoneProduit {
+        margin-top: 50px; /* moins d'espace inutile */
         width: 95%;
         float: none;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    /* zig-zag placement carte*/
-    .zoneCartesProduits:nth-of-type(even) {
-        justify-content: end;
-        margin-right: 10px;
+    .zoneCartesProduits {
+        margin-left: 0;
+        margin-right: 0;
+        gap: 15px;
+    }
+
+    /* Zig-zag neutralisé en responsive */
+    .zoneProduit h2:nth-of-type(odd),
+    .zoneProduit h2:nth-of-type(even) {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .carteProduit {
         width: calc(50% - 10px);
-        height: 250px;
+        max-width: 300px;
     }
 
     .carteProduit:hover {
@@ -438,14 +627,26 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
         font-size: 4rem;
     }
 
+
+    .armesOrbitantes {
+        grid-template-columns: 1fr;
+    }
+
+
     .bandeauCollection {
         display: none;
     }
+
 
     .zoneProduit {
         width: 95%;
         float: none;
         margin: 0 auto;
+    }
+
+    .zoneCartesProduits {
+        margin-bottom: 50px;
+        gap: 100px;
     }
 
     /* zig-zag titre*/
@@ -459,8 +660,8 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
     }
 
     .carteProduit {
-        width: calc(100% - 10px);
-        width: 300px;
+        width: 100%;
+        max-width: 300px;
     }
 
     .carteProduit:hover {
@@ -468,6 +669,10 @@ border-bottom: 1px solid rgba(255, 70, 85, 0.2);
         box-shadow: 0 10px 30px rgba(255, 70, 85, 0.8);
     }
 }
+
+
+
+
 
 /* footer */
 footer {
