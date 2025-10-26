@@ -13,6 +13,13 @@
 - Page boutique : MATTEO BRONNER
 - Page panier : VALENTIN BEURET
 - Page à Propos : LUKAS BENDIAF
-- (+ Page bonus : ADAM BAJIC. Ne cliquez surtout pas sur le bouton connexion)
+- (+ Pages bonus : ADAM BAJIC. Ne cliquez surtout pas sur le bouton connexion)
+
+## But du site :
+
+Bienvenue sur Valorant Marketplace, la deuxième itération créative de VAL Incorporation en terme de création de site.
+Ici, vous pourrez commander des skins d'armes Valorant.
+
+Merci de dépenser un maximum d'argent pour notre enrichisement personnel.
 
 
